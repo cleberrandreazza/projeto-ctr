@@ -1,0 +1,95 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+    var ii_field = Umbraco.Field("isInternal").ToString();
+    var isInternal = false;
+    if (!String.IsNullOrEmpty(ii_field))
+    {
+        isInternal = Convert.ToBoolean(ii_field);
+    }
+}<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<title>@Umbraco.Field("title", altFieldAlias: "pageTitle") | @Umbraco.Field("siteName", recursive: true)</title>
+
+	<link rel="stylesheet" type="text/css" href="/_assets/css/main.min.css" />
+    <script src="http://cssrefresh.frebsite.nl/js/cssrefresh.js"></script>
+	<script src="https://use.typekit.net/fwx1tba.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKo9z4cAXb4DvMvyx-OGeHzE4FNBvP_zU" type="text/javascript"></script>
+	<script  src="/_assets/js/all.js?d=4"></script>
+</head>
+<body>
+<div class="animsition">
+<header @(isInternal == true ? " class=interna" : "")>
+	<div class="container">
+		<div class="menu">
+			<div class="grid">
+				<a href="/" title="@Umbraco.Field("siteName", recursive: true)" class="logo"><h1>@Umbraco.Field("#Randon - Campo de provas").ToString()</h1></a>
+			</div>
+			<div class="grid last">
+				@{ Html.RenderPartial("umbTopNavigation"); }
+			</div>
+			<div class="mobile"></div>
+		</div>
+	</div>
+</header>
+
+@RenderBody()
+
+<section id="footer">
+	<div class="content_top">
+		<div class="container">
+
+			<div class="endereco">
+				<p>@Umbraco.Field("enderecoLinha1", recursive: true)</p>
+				<p>@Umbraco.Field("enderecoLinha2", recursive: true)</p>
+				<p><strong>Tel.: @Umbraco.Field("telefone", recursive: true) - <a href="mailto:@Umbraco.Field("eMail", recursive: true)" title="Contato">@Umbraco.Field("eMail", recursive: true)</a></strong></p>
+			</div>
+			<div class="localizacao">
+				<a href="@Umbraco.Field("linkGoogleMaps", recursive: true)" target="_blank" title="@Umbraco.Field("#Como chegar").ToString()">@Umbraco.Field("#Como chegar").ToString()</a>
+			</div>
+			<div class="logos">
+				<a href="#!" title="Empresas Randon" class="logo_center"></a>
+				<ul class="list_logos">
+					<li class="item">
+						<p class="title">@Umbraco.Field("#Veículos e Implementos").ToString()</p>
+						<ul class="list_inner">
+							<li><img src="/_assets/images/logo_randon_implementos.png" alt="@Umbraco.Field("#Randon - Campo de provas").ToString()"></li>
+							<li><img src="/_assets/images/logo_randon_implementos.png" alt="@Umbraco.Field("#Randon - Campo de provas").ToString()"></li>
+						</ul>
+					</li>
+					<li class="item">
+						<p class="title">@Umbraco.Field("#Autopeças").ToString()</p>
+						<ul class="list_inner">
+							<li><img src="/_assets/images/logo_randon_implementos.png" alt="@Umbraco.Field("#Randon - Campo de provas").ToString()"></li>
+							<li><img src="/_assets/images/logo_randon_implementos.png" alt="@Umbraco.Field("#Randon - Campo de provas").ToString()"></li>
+							<li><img src="/_assets/images/logo_randon_implementos.png" alt="@Umbraco.Field("#Randon - Campo de provas").ToString()"></li>
+							<li><img src="/_assets/images/logo_randon_implementos.png" alt="@Umbraco.Field("#Randon - Campo de provas").ToString()"></li>
+							<li><img src="/_assets/images/logo_randon_implementos.png" alt="@Umbraco.Field("#Randon - Campo de provas").ToString()"></li>
+						</ul>
+					</li>
+					<li class="item">
+						<p class="title">@Umbraco.Field("#Serviços").ToString()</p>
+						<ul class="list_inner">
+							<li><img src="/_assets/images/logo_randon_implementos.png" alt="@Umbraco.Field("#Randon - Campo de provas").ToString()"></li>
+							<li><img src="/_assets/images/logo_randon_implementos.png" alt="@Umbraco.Field("#Randon - Campo de provas").ToString()"></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<p class="creditos">@Umbraco.Field("#Créditos Fotográficos").ToString()</p>
+		</div>
+	</div>
+	<div class="content_bottom">
+		<p>@Umbraco.Field("#Copyright").ToString()</p>
+	</div>
+</section>
+
+</div>
+
+</body>
+</html>

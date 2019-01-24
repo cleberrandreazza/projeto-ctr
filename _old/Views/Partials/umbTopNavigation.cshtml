@@ -1,0 +1,47 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@using umbraco.cms.businesslogic.web; 
+@inherits UmbracoTemplatePage
+@{
+    // Model.Content is the current page that we're on
+    // AncestorsOrSelf is all of the ancestors this page has in the tree
+    // (1) means: go up to level 1 and stop looking for more ancestors when you get there
+    // First() gets the first ancestor found (the home page, on level 1)
+    var homePage = CurrentPage.AncestorsOrSelf(1).First();
+
+    // The menu items we want are all of the children of the homepage
+    // We also check if "Hide in navigation" is on in the menu, we shouldn't show hidden items
+    var menuItems = homePage.Children.Where("UmbracoNaviHide == false").Take(4);
+
+    var firstDomainLanguage = Domain.GetDomainsById(CurrentPage.AncestorOrSelf(1).Id)[0].Language;
+    var culture_alias = firstDomainLanguage.CultureAlias;
+    var base_url_fale = "/pt/fale-conosco";
+    if (culture_alias == "en-US") { base_url_fale = "/en/talk-to-us"; }
+    else if (culture_alias == "es-ES") { base_url_fale = "/es/contáctenos";}
+}
+<!-- Nav -->
+<nav>
+    <ul>
+        @foreach (var item in menuItems)
+        {
+            @* If the Id of the item is the same as the Id of the current page then we want to add the class "current_page_item" *@
+            @* Otherwise, we set the class to null, that way it will not even be added to the <li> element *@
+            <li class="@(CurrentPage.Id == item.Id ? "current_page_item" : null)"><a href="@item.Url">@item.Name</a></li>
+        }
+        <li>
+            <a href="@base_url_fale#como_chegar" title="@Umbraco.Field("#Como chegar").ToString()">@Umbraco.Field("#Como chegar").ToString()</a>
+        </li>
+        <li>
+            <a href="@base_url_fale" title="@Umbraco.Field("#Fale Conosco").ToString()" class="contato">@Umbraco.Field("#Fale Conosco").ToString()</a>
+        </li>
+		<li class="lang">
+			<a href="/pt" title="Pt" class="pt@(culture_alias == "pt-BR" ? " active" : "")"></a>
+		</li>
+		<li class="lang">
+			<a href="/en" title="En" class="en@(culture_alias == "en-US" ? " active" : "")"></a>
+		</li>
+		<li class="lang">
+			<a href="/es" title="Es" class="es@(culture_alias == "es-ES" ? " active" : "")"></a>
+		</li>
+	</ul>
+</nav>
+<!-- /Nav -->

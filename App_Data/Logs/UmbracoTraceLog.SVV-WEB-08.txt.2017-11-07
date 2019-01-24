@@ -1,0 +1,30 @@
+﻿ 2017-11-07 03:53:52,090 [P14156/D2/T74] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-06 03:53:52
+ 2017-11-07 07:53:52,087 [P14156/D2/T82] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-06 07:53:52
+ 2017-11-07 11:53:52,142 [P14156/D2/T25] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-06 11:53:52
+ 2017-11-07 12:52:00,521 [P14156/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-07 12:52:00,522 [P14156/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-07 12:52:00,529 [P14156/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-07 12:52:00,529 [P14156/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-07 12:52:00,531 [P14156/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-07 12:52:00,532 [P14156/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-07 12:52:00,533 [P14156/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-07 12:52:00,534 [P14156/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-07 12:52:00,541 [P14156/D2/T92] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-07 12:52:00,541 [P14156/D2/T96] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-07 12:52:00,541 [P14156/D2/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-07 12:52:00,543 [P14156/D2/T25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-07 12:52:00,541 [P14156/D2/T46] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-11-07 12:52:00,576 [P14156/D2/T46] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-11-07 12:52:00,577 [P14156/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-07 12:52:00,578 [P14156/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-07 12:52:00,579 [P14156/D2/T96] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-07 12:52:30,695 [P14156/D2/T25] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()

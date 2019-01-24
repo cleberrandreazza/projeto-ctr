@@ -1,0 +1,84 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.InternalAbout>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "umbLayout.cshtml";
+	var aboutGallery = CurrentPage.aboutGallery;
+}
+
+<section id="sobre">
+	<div class="header"  style="background: url(@Umbraco.Media(@Umbraco.Field("aboutHeader").ToString()).Url) no-repeat center center / cover" data-stellar-background-ratio="0.8"></div>
+	<div class="pistas">
+		<div class="container">
+			<div class="container">
+				<div class="content">
+					<div class="text">
+						<h2>@Umbraco.Field("aboutTitle")</h2>
+					</div>
+					<ul>
+						<li>
+							<p>@Umbraco.Field("hectares", recursive: true) <span>@Umbraco.Field("#Hectares").ToString()</span></p>
+						</li>
+						<li>
+							<p>@Umbraco.Field("tiposDePista", recursive: true) <span>@Umbraco.Field("#Tipos de pista").ToString()</span></p>
+						</li>
+						<li>
+							<p>@Umbraco.Field("quilometros", recursive: true) <span>@Umbraco.Field("#Quilômetros").ToString()</span></p>
+						</li>
+						<li>
+							<p>@Umbraco.Field("metrosQuadrados", recursive: true) <span>@Umbraco.Field("metrosQuadradosSubTitulo", recursive: true)</span></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>					
+	</div>
+	<div class="slider">
+		<div class="setas">
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		</div>
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		    	@foreach (var img in aboutGallery)
+                {
+		        <div class="swiper-slide">
+		        	
+                    <div class="img" style="background: url(@Umbraco.Media(img.ToString()).Url) no-repeat center center / cover">
+                        <a data-fancybox="fotos" href="@Umbraco.Media(img.ToString()).Url">
+                            <!--<p>VISTA AÉREA DA PISTA</p>-->
+                        </a>
+                    </div>
+		        </div>
+		        }
+		    </div>
+		</div>
+	</div>
+	<div class="content_text">
+		<div class="container">
+			<div class="container">
+				<h3>@Umbraco.Field("aboutTextTitle")</h3>
+				@Umbraco.Field("aboutText")
+			</div>
+		</div>
+	</div>	
+	<div class="chamada_video">
+		<a  data-fancybox="video" href="https://www.youtube.com/watch?v=@Umbraco.Field("homeVideo", recursive: true)" class="video"></a>
+		<div class="blob">
+		  <div class="ring"></div>
+		  <div class="pulse pulse--1"></div>
+		  <div class="pulse pulse--2"></div>
+		  <div class="pulse pulse--3"></div>
+		</div>
+	</div>		
+	<div class="map">
+		<div class="text">
+			<p>@Umbraco.Field("#Como chegar ao campo").ToString()</p>
+			<a href="@Umbraco.Field("linkGoogleMaps", recursive: true)" title="@Umbraco.Field("#Abrir no Google Maps").ToString()" class="btn" target="_blank">@Umbraco.Field("#Abrir no Google Maps").ToString()</a>
+		</div>
+		<div id="map_div">
+			
+		</div>
+		<input type="hidden" name="latitude" id="latitude" value="@Umbraco.Field("latitude", recursive: true)" />
+		<input type="hidden" name="longitude" id="longitude" value="@Umbraco.Field("longitude", recursive: true)" />   
+	</div>									
+</section>

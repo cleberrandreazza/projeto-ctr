@@ -1,0 +1,16 @@
+{
+  "id": "bcde034e-b0ef-4e7d-899f-c91e1f9eba01",
+  "name": "Enviar e-mail",
+  "form": "6ab5598a-b83e-44b3-b2e8-494d0e91fb9d",
+  "active": true,
+  "workflowTypeId": "17c61629-d984-4e86-b43b-a8407b3efea9",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "campo.provas@fras-le.com",
+    "SenderEmail": "",
+    "Subject": "Site Campo de Provas - Contato",
+    "RazorViewFilePath": "Forms/Emails/Example-Template.cshtml",
+    "Attachment": ""
+  },
+  "sortOrder": 1
+}

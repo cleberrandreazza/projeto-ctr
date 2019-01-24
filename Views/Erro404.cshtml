@@ -1,0 +1,13 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Erro404>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "umbLayout.cshtml";
+	var form_guid = Umbraco.Field("formulario").ToString();
+}
+
+<section id="404" style="background:#0F1C25; text-align:center;">
+	<h1 style="color:#fff; padding:50px 20px; font-size:35px;">@Umbraco.Field("#404 - Título").ToString()</h1>
+	<p style="color:#fff;font-size:16px;">@Umbraco.Field("#404 - Frase 1").ToString()</p>
+	<p style="color:#fff;font-size:16px;">@Umbraco.Field("#404 - Frase 2").ToString()</p>
+	<p style="color:#fff;font-size:16px;"><a href="/" style="color:#fff;text-decoration:underline;">Home</a></p>
+</section>

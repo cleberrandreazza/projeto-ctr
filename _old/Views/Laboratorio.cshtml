@@ -1,0 +1,58 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Laboratorio>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "umbLayout.cshtml";
+	
+	var items = CurrentPage.Children;
+    var j = 0;
+}
+<section id="laboratorio">
+	<div class="header"  style="background: url(@Umbraco.Media(@Umbraco.Field("laboratorioHeader").ToString()).Url) no-repeat center center / cover"  data-stellar-background-ratio="0.8"></div>
+	<div class="content_text">
+		<div class="grid ">
+			<div class="text">
+				<h3>@Umbraco.Field("laboratorioTextoTitulo")</h3>
+				<p>@Umbraco.Field("laboratorioTexto")</p>
+			</div>
+		</div>
+		<div class="grid img" style="background: url('/_assets/images/foto-lab.png')no-repeat center center / cover"></div>
+		<div class="text_header">
+			<h2>@Umbraco.Field("laboratorioTitulo")</h2>
+		</div>
+	</div>	
+	<div class="content_estrutura">
+		<h4>@Umbraco.Field("laboratorioTituloDasImagens")</h4>
+		<div class="container">
+			<ul>
+				@foreach (var item in items)
+				{
+				<li  style="background: url(@Umbraco.Media(item.laboratorioItemImagem.ToString()).Url) no-repeat center center / cover">
+						<p>@item.laboratorioItemLegenda</p>
+					<a title="@item.laboratorioItemLegenda" data-fancybox="fotos" href="@Umbraco.Media(item.laboratorioItemImagem.ToString()).Url"></a>
+				</li>
+				}
+				@{ /*
+				<li  style="background: url('/_assets/images/estrutura1.png')no-repeat center center / cover">
+					<p>Máquinas rodoviárias Avaliação de estruturas protetoras (ROPS/FOPS) </p>
+					<a title="Teste de Fadiga Chassis ferroviário (atuadores para até 440 t)" data-fancybox="fotos" href="/_assets/images/laboratorio.png"></a>
+				</li>
+				<li  style="background: url('/_assets/images/estrutura1.png')no-repeat center center / cover">
+					<p>ENGATES E ACOPLAMENTOS</p>
+					<a title="Teste de Fadiga Chassis ferroviário (atuadores para até 440 t)" data-fancybox="fotos" href="/_assets/images/laboratorio.png"></a>
+				</li>
+				<li  style="background: url('/_assets/images/estrutura1.png')no-repeat center center / cover">
+					<p>Teste de Fadiga Chassis ferroviário (atuadores para até 440 t)</p>
+					<a title="Teste de Fadiga Chassis ferroviário (atuadores para até 440 t)" data-fancybox="fotos" href="/_assets/images/laboratorio.png"></a>
+				</li>
+				<li  style="background: url('/_assets/images/estrutura1.png')no-repeat center center / cover">
+					<p>Teste de Fadiga Chassis ferroviário (atuadores para até 440 t)</p>
+					<a title="Teste de Fadiga Chassis ferroviário (atuadores para até 440 t)" data-fancybox="fotos" href="/_assets/images/laboratorio.png"></a>
+				</li>
+				<li  style="background: url('/_assets/images/estrutura1.png')no-repeat center center / cover">
+					<p>Teste de Fadiga Chassis ferroviário (atuadores para até 440 t)</p>
+					<a title="Teste de Fadiga Chassis ferroviário (atuadores para até 440 t)" data-fancybox="fotos" href="/_assets/images/laboratorio.png"></a>
+				</li>*/ }
+			</ul>
+		</div>
+	</div>						
+</section>

@@ -1,0 +1,129 @@
+
+.medias{
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding:0;
+}
+
+.medias li{width: 250px; margin: 10px; display: inline-block; padding: 5px; background-color: #fff; border: 1px solid #ccc; border-radius: 3px; position: relative; cursor: pointer; }
+.medias li.added img{opacity: 0.3 }
+.medias li.added .check{display: block; }
+.medias li .check{fill: #ee5151; width: 80px; height: 80px; position: absolute; top:0;left:0;right:0;bottom:0; margin: auto; display: none; }
+.medias li img{width: 100%;display: block;}
+
+.ui-sortable-handle{
+  cursor: move;
+}
+/*boot strap */
+.col-centered {
+	text-align: center;
+}
+.items-push{
+	
+}
+.wrapper {
+    width: 290px;
+    height: 300px; /* or whatever... */
+    overflow: hidden;
+    position: relative;	
+    float: left;
+    padding: 15px;
+        list-style: none;
+}
+.wrapper img {
+    max-width: initial;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    left: 0;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+       -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+         -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+} 
+
+.img-sortable .ui-state-highlight{
+	width: 290px;
+    height: 300px; /* or whatever... */
+    overflow: hidden;
+    
+    float: left;
+    padding: 15px;
+        list-style: none;
+        border: 1px dashed grey;
+}
+.wrapper .img-container{
+	height: 100%!important;
+}
+/* dropzpone */
+.dz-progress{
+	//display: none;
+}
+.dropzone .dz-preview.dz-image-preview {
+	
+    box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.175);
+	border: 1px solid #acacac;
+	padding: 6px;
+
+}
+.dropzone .dz-preview .dz-details {
+	    width: 100px;
+	    opacity: 1;
+    height: 100px;
+    position: relative;
+}
+.dropzone .dz-preview .dz-image {
+	height: 110px;
+	border-radius: 0px!important;
+
+}
+.dropzone .dz-preview:hover .dz-image img {
+	-webkit-filter:none;
+	transform:none;
+}
+.dropzone .dz-preview .dz-progress {
+	height: 10px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	border-radius: 0;
+	margin: 0;
+	top: initial;
+	animation: initial!important;
+}
+.dropzone .dz-preview .dz-progress .dz-upload {
+	
+	background-color: #5cb85c;
+	background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-size: 40px 40px;
+    background-repeat: repeat-x;
+    animation: progress-bar-stripes 2s linear infinite;
+
+}
+.dz-remove{
+	position: absolute;
+	    top: -20px;
+    right: -20px;
+	z-index: 9999;
+	//background: white;
+	    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 100%;
+	display: block;
+	text-decoration: none!important;	
+	color: black!important;
+	    font-family: cursive;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 22px;
+    border: 1px solid rgba(172,172,172,0.27)!important;
+}

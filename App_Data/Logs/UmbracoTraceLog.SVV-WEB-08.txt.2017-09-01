@@ -1,0 +1,38 @@
+﻿ 2017-09-01 02:20:16,588 [P8732/D2/T101] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-31 02:20:16
+ 2017-09-01 06:20:16,601 [P8732/D2/T124] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-31 06:20:16
+ 2017-09-01 07:45:43,016 [P8732/D2/T82] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username wagner.dias@fras-le.com from IP address 172.25.164.7
+ 2017-09-01 07:45:43,017 [P8732/D2/T82] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: wagner.dias@fras-le.com logged in from IP address 172.25.164.7
+ 2017-09-01 07:45:43,107 [P8732/D2/T68] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-09-01 07:45:43,107 [P8732/D2/T68] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-09-01 07:45:43,108 [P8732/D2/T68] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-09-01 07:45:43,109 [P8732/D2/T68] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-09-01 08:05:17,993 [P8732/D2/T82] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: wagner.dias@fras-le.com, IP Address: 172.25.164.7
+ 2017-09-01 10:20:16,617 [P8732/D2/T124] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-31 10:20:16
+ 2017-09-01 14:20:31,963 [P8732/D2/T106] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-31 14:20:31
+ 2017-09-01 15:19:20,471 [P8732/D2/T62] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-09-01 15:19:20,472 [P8732/D2/T62] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-09-01 15:19:20,477 [P8732/D2/T62] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-09-01 15:19:20,484 [P8732/D2/T62] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-09-01 15:19:20,485 [P8732/D2/T62] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-09-01 15:19:20,486 [P8732/D2/T62] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-09-01 15:19:20,490 [P8732/D2/T62] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-09-01 15:19:20,516 [P8732/D2/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-09-01 15:19:20,516 [P8732/D2/T68] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-09-01 15:19:20,516 [P8732/D2/T124] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-09-01 15:19:20,528 [P8732/D2/T62] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-09-01 15:19:20,529 [P8732/D2/T62] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-09-01 15:19:20,529 [P8732/D2/T62] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-09-01 15:19:20,530 [P8732/D2/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-09-01 15:19:20,588 [P8732/D2/T62] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-09-01 15:19:20,589 [P8732/D2/T62] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-09-01 15:19:20,589 [P8732/D2/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-09-01 15:19:50,805 [P8732/D2/T29] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()

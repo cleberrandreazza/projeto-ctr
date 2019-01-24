@@ -1,0 +1,77 @@
+﻿ 2019-01-09 00:04:23,756 [P5208/D2/T109] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-08 00:04:23
+ 2019-01-09 04:04:23,791 [P5208/D2/T133] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-08 04:04:23
+ 2019-01-09 08:04:23,821 [P5208/D2/T85] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-08 08:04:23
+ 2019-01-09 12:04:23,862 [P5208/D2/T39] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-08 12:04:23
+ 2019-01-09 13:38:22,050 [P5208/D2/T67] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-09 13:38:22,051 [P5208/D2/T67] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2019-01-09 13:38:22,052 [P5208/D2/T67] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2019-01-09 13:38:22,113 [P5208/D2/T67] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 60ms)
+ 2019-01-09 14:26:09,013 [P5208/D2/T109] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-09 14:26:09,015 [P5208/D2/T109] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2019-01-09 14:26:09,016 [P5208/D2/T109] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2019-01-09 14:26:09,017 [P5208/D2/T109] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2019-01-09 14:26:09,125 [P5208/D2/T109] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-09 14:26:09,127 [P5208/D2/T109] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2019-01-09 14:26:09,127 [P5208/D2/T109] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
+ 2019-01-09 14:26:09,186 [P5208/D2/T109] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 58ms)
+ 2019-01-09 14:30:44,311 [P5208/D2/T242] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-09 14:30:44,313 [P5208/D2/T242] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2019-01-09 14:30:44,313 [P5208/D2/T242] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2019-01-09 14:30:44,321 [P5208/D2/T242] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 7ms)
+ 2019-01-09 14:30:44,386 [P5208/D2/T242] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username wagner.dias@fras-le.com from IP address 172.25.128.36
+ 2019-01-09 14:30:44,391 [P5208/D2/T242] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: wagner.dias@fras-le.com logged in from IP address 172.25.128.36
+ 2019-01-09 14:30:45,159 [P5208/D2/T16] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-09 14:30:45,160 [P5208/D2/T16] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2019-01-09 14:30:45,161 [P5208/D2/T16] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2019-01-09 14:30:45,167 [P5208/D2/T16] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 6ms)
+ 2019-01-09 14:30:45,491 [P5208/D2/T254] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-09 14:30:45,492 [P5208/D2/T254] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2019-01-09 14:30:45,493 [P5208/D2/T254] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2019-01-09 14:30:45,498 [P5208/D2/T254] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 4ms)
+ 2019-01-09 14:30:45,527 [P5208/D2/T47] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-09 14:30:45,528 [P5208/D2/T47] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2019-01-09 14:30:45,529 [P5208/D2/T47] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2019-01-09 14:30:45,535 [P5208/D2/T47] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 5ms)
+ 2019-01-09 14:30:45,552 [P5208/D2/T254] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-09 14:30:45,554 [P5208/D2/T254] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 2ms)
+ 2019-01-09 14:30:45,557 [P5208/D2/T254] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2019-01-09 14:30:45,558 [P5208/D2/T254] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 1ms)
+ 2019-01-09 14:30:45,564 [P5208/D2/T254] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-09 14:30:45,565 [P5208/D2/T254] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-09 14:30:45,566 [P5208/D2/T254] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2019-01-09 14:30:45,571 [P5208/D2/T254] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 5ms)
+ 2019-01-09 14:35:30,164 [P5208/D2/T232] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username wagner.dias@fras-le.com from IP address 172.25.128.36
+ 2019-01-09 14:35:30,165 [P5208/D2/T232] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: wagner.dias@fras-le.com logged in from IP address 172.25.128.36
+ 2019-01-09 14:35:30,251 [P5208/D2/T243] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-09 14:35:30,252 [P5208/D2/T243] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-09 14:35:30,253 [P5208/D2/T243] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2019-01-09 14:35:30,254 [P5208/D2/T243] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2019-01-09 16:04:24,147 [P5208/D2/T254] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-08 16:04:23
+ 2019-01-09 20:04:24,155 [P5208/D2/T249] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-08 20:04:24
+ 2019-01-09 21:03:04,936 [P5208/D2/T242] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2019-01-09 21:03:04,937 [P5208/D2/T242] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2019-01-09 21:03:04,962 [P5208/D2/T242] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2019-01-09 21:03:04,963 [P5208/D2/T242] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2019-01-09 21:03:04,979 [P5208/D2/T239] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2019-01-09 21:03:04,980 [P5208/D2/T68] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2019-01-09 21:03:05,019 [P5208/D2/T242] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2019-01-09 21:03:05,020 [P5208/D2/T242] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2019-01-09 21:03:05,021 [P5208/D2/T96] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2019-01-09 21:03:05,046 [P5208/D2/T242] INFO  Umbraco.Core.MainDom - Stopping...
+ 2019-01-09 21:03:05,078 [P5208/D2/T242] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2019-01-09 21:03:05,079 [P5208/D2/T242] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2019-01-09 21:03:05,080 [P5208/D2/T242] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2019-01-09 21:03:05,081 [P5208/D2/T242] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2019-01-09 21:03:05,081 [P5208/D2/T219] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2019-01-09 21:03:05,081 [P5208/D2/T242] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2019-01-09 21:03:05,083 [P5208/D2/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2019-01-09 21:03:35,325 [P5208/D2/T254] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()

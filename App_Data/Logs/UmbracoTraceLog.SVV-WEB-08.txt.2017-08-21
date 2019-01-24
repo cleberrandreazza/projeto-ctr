@@ -1,0 +1,296 @@
+﻿ 2017-08-21 09:29:46,588 [P956/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.3 application starting on SVV-WEB-08
+ 2017-08-21 09:29:46,628 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-08-21 09:29:46,660 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 32ms)
+ 2017-08-21 09:29:46,835 [P956/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-08-21 09:29:46,838 [P956/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-08-21 09:29:46,841 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:29:47,479 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 638ms)
+ 2017-08-21 09:29:47,480 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-08-21 09:29:47,482 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2017-08-21 09:29:47,626 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:29:47,628 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-08-21 09:29:47,628 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-08-21 09:29:47,629 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2017-08-21 09:29:47,630 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:29:47,630 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 09:29:47,631 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-08-21 09:29:47,633 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 2ms)
+ 2017-08-21 09:29:47,672 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:29:47,672 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 09:29:47,673 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-08-21 09:29:47,673 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2017-08-21 09:29:47,674 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:29:47,675 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 09:29:47,675 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-08-21 09:29:47,677 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2017-08-21 09:29:51,069 [P956/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-08-21 09:29:51,555 [P956/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-08-21 09:29:51,631 [P956/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-08-21 09:29:51,731 [P956/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-08-21 09:29:51,920 [P956/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-08-21 09:29:52,087 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:29:52,088 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 09:29:52,089 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-08-21 09:29:52,089 [P956/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2017-08-21 09:29:52,224 [P956/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5934ms)
+ 2017-08-21 09:29:56,367 [P956/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://hmlg-campodeprovas.randon.com.br:80/umbraco (UmbracoModule request)
+ 2017-08-21 09:30:01,380 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:30:01,380 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 09:30:01,382 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-08-21 09:30:01,383 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 1ms)
+ 2017-08-21 09:30:01,520 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:30:01,520 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 09:30:01,521 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-08-21 09:30:01,522 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 1ms)
+ 2017-08-21 09:30:39,997 [P956/D2/T8] INFO  umbraco.content - Load Xml from file...
+ 2017-08-21 09:30:40,044 [P956/D2/T8] INFO  umbraco.content - Loaded Xml from file.
+ 2017-08-21 09:30:43,185 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:30:43,185 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 09:30:43,186 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2017-08-21 09:30:43,187 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 0ms)
+ 2017-08-21 09:30:44,018 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:30:44,019 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 09:30:44,020 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-08-21 09:30:44,021 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 1ms)
+ 2017-08-21 09:30:44,026 [P956/D2/T11] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username wagner.dias@fras-le.com from IP address 172.25.164.12
+ 2017-08-21 09:30:44,029 [P956/D2/T11] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: wagner.dias@fras-le.com logged in from IP address 172.25.164.12
+ 2017-08-21 09:30:44,551 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:30:44,551 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 09:30:44,552 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-21 09:30:44,553 [P956/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-08-21 09:30:45,725 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:30:45,725 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 09:30:45,726 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-08-21 09:30:45,727 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 0ms)
+ 2017-08-21 09:30:45,765 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:30:45,766 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 09:30:45,766 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-08-21 09:30:45,767 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 1ms)
+ 2017-08-21 09:30:45,790 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:30:45,790 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 09:30:45,791 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-21 09:30:45,791 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-08-21 09:30:45,796 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:30:45,796 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 09:30:45,797 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-08-21 09:30:45,797 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2017-08-21 09:31:01,351 [P956/D2/T17] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-20 09:31:01
+ 2017-08-21 09:33:05,672 [P956/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'PT' with Id '1070' has been published.
+ 2017-08-21 09:33:10,308 [P956/D2/T27] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 09:33:10,312 [P956/D2/T27] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 09:43:22,701 [P956/D2/T36] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 09:43:22,703 [P956/D2/T36] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-08-21 09:43:22,704 [P956/D2/T36] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-21 09:43:22,705 [P956/D2/T36] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-08-21 09:52:19,282 [P956/D2/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '10 - Alta Velocidade' with Id '1197' has been published.
+ 2017-08-21 09:52:23,412 [P956/D2/T50] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 09:52:23,416 [P956/D2/T50] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 09:57:18,470 [P956/D2/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '10 - Alta Velocidade' with Id '1197' has been published.
+ 2017-08-21 09:57:22,608 [P956/D2/T63] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 09:57:22,611 [P956/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:03:39,119 [P956/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '10 - Alta Velocidade' with Id '1197' has been published.
+ 2017-08-21 10:03:43,207 [P956/D2/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:03:43,209 [P956/D2/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:04:36,772 [P956/D2/T15] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '10 - Alta Velocidade' with Id '1197' has been published.
+ 2017-08-21 10:04:40,861 [P956/D2/T47] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:04:40,864 [P956/D2/T47] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:06:16,198 [P956/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '10 - Alta Velocidade' with Id '1197' has been published.
+ 2017-08-21 10:06:20,306 [P956/D2/T47] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:06:20,308 [P956/D2/T47] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:12:14,773 [P956/D2/T52] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '11 - Circular com Lombadas' with Id '1198' has been published.
+ 2017-08-21 10:12:18,878 [P956/D2/T49] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:12:18,881 [P956/D2/T49] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:15:11,930 [P956/D2/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '11 - Circular com Lombadas' with Id '1198' has been published.
+ 2017-08-21 10:15:16,064 [P956/D2/T48] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:15:16,079 [P956/D2/T48] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:19:40,530 [P956/D2/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '12 - Circular' with Id '1199' has been published.
+ 2017-08-21 10:19:44,639 [P956/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:19:44,653 [P956/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:27:43,423 [P956/D2/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '12 - Circular' with Id '1199' has been published.
+ 2017-08-21 10:27:47,532 [P956/D2/T29] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:27:47,548 [P956/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:31:37,312 [P956/D2/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '12 - Circular' with Id '1199' has been published.
+ 2017-08-21 10:31:41,416 [P956/D2/T48] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:31:41,432 [P956/D2/T48] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:32:13,649 [P956/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '12 - Circular' with Id '1199' has been published.
+ 2017-08-21 10:32:17,737 [P956/D2/T29] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:32:17,753 [P956/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:34:09,429 [P956/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '13 - Salom' with Id '1200' has been published.
+ 2017-08-21 10:34:13,518 [P956/D2/T29] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:34:13,534 [P956/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:34:40,516 [P956/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '13 - Salom' with Id '1200' has been published.
+ 2017-08-21 10:34:44,614 [P956/D2/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:34:44,630 [P956/D2/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:35:45,333 [P956/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '13 - Salom' with Id '1200' has been published.
+ 2017-08-21 10:35:49,440 [P956/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:35:49,456 [P956/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:38:25,151 [P956/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '13 - Salom' with Id '1200' has been published.
+ 2017-08-21 10:38:29,237 [P956/D2/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:38:29,254 [P956/D2/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:39:18,654 [P956/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '13 - Salom' with Id '1200' has been published.
+ 2017-08-21 10:39:22,746 [P956/D2/T63] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:39:22,754 [P956/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:41:44,998 [P956/D2/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '13 - Salom' with Id '1200' has been published.
+ 2017-08-21 10:41:49,109 [P956/D2/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:41:49,120 [P956/D2/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:44:19,714 [P956/D2/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '14 a 18 - Pista de Durabilidade' with Id '1201' has been published.
+ 2017-08-21 10:44:23,846 [P956/D2/T63] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:44:23,849 [P956/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:47:49,835 [P956/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '14 a 18 - Pista de Durabilidade' with Id '1201' has been published.
+ 2017-08-21 10:47:53,930 [P956/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:47:53,933 [P956/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:49:34,334 [P956/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '14 a 18 - Pista de Durabilidade' with Id '1201' has been published.
+ 2017-08-21 10:49:38,438 [P956/D2/T59] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:49:38,441 [P956/D2/T59] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:51:32,882 [P956/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '14 a 18 - Pista de Durabilidade' with Id '1201' has been published.
+ 2017-08-21 10:51:36,978 [P956/D2/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:51:36,981 [P956/D2/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:51:39,967 [P956/D2/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '14 a 18 - Pista de Durabilidade' with Id '1201' has been published.
+ 2017-08-21 10:51:44,065 [P956/D2/T63] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:51:44,067 [P956/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 10:52:44,130 [P956/D2/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '14 a 18 - Pista de Durabilidade' with Id '1201' has been published.
+ 2017-08-21 10:52:48,231 [P956/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 10:52:48,234 [P956/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 11:08:52,589 [P956/D2/T31] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: wagner.dias@fras-le.com, IP Address: 172.25.164.12
+ 2017-08-21 11:09:59,193 [P956/D2/T55] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username wagner.dias@fras-le.com from IP address 172.25.164.12
+ 2017-08-21 11:09:59,193 [P956/D2/T55] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: wagner.dias@fras-le.com logged in from IP address 172.25.164.12
+ 2017-08-21 11:12:21,134 [P956/D2/T14] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Área de Sigilo' with Id '1211' has been published.
+ 2017-08-21 11:12:25,237 [P956/D2/T29] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 11:12:25,240 [P956/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 11:16:35,248 [P956/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Área de Sigilo' with Id '1211' has been published.
+ 2017-08-21 11:16:39,352 [P956/D2/T29] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 11:16:39,354 [P956/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 11:19:22,189 [P956/D2/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tecnologia' with Id '1219' has been published.
+ 2017-08-21 11:19:26,326 [P956/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 11:19:26,329 [P956/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 11:31:15,039 [P956/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Frete' with Id '0' has been published.
+ 2017-08-21 11:31:19,237 [P956/D2/T4] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 11:31:19,240 [P956/D2/T4] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 11:33:14,706 [P956/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Frete' with Id '1323' has been published.
+ 2017-08-21 11:33:18,802 [P956/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 11:33:18,805 [P956/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 13:31:01,374 [P956/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-20 13:31:01
+ 2017-08-21 13:31:28,839 [P956/D2/T29] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username wagner.dias@fras-le.com from IP address 172.25.164.12
+ 2017-08-21 13:31:28,839 [P956/D2/T29] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: wagner.dias@fras-le.com logged in from IP address 172.25.164.12
+ 2017-08-21 13:31:28,921 [P956/D2/T54] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 13:31:28,922 [P956/D2/T54] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 13:31:28,923 [P956/D2/T54] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-21 13:31:28,924 [P956/D2/T54] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-08-21 13:32:00,855 [P956/D2/T29] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 13:32:00,856 [P956/D2/T29] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-08-21 13:32:00,857 [P956/D2/T29] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-08-21 13:32:00,858 [P956/D2/T29] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2017-08-21 13:32:00,896 [P956/D2/T29] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 13:32:00,896 [P956/D2/T29] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 13:32:00,897 [P956/D2/T29] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-08-21 13:32:00,899 [P956/D2/T29] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 1ms)
+ 2017-08-21 13:35:33,232 [P956/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Frete' with Id '1323' has been published.
+ 2017-08-21 13:35:37,345 [P956/D2/T48] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 13:35:37,348 [P956/D2/T48] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 13:41:37,834 [P956/D2/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Garantia de Processos' with Id '1218' has been published.
+ 2017-08-21 13:41:41,931 [P956/D2/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 13:41:41,933 [P956/D2/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 13:42:20,067 [P956/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Garantia de Processos' with Id '1218' has been published.
+ 2017-08-21 13:42:24,169 [P956/D2/T4] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 13:42:24,172 [P956/D2/T4] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 13:42:41,890 [P956/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Garantia de Processos' with Id '1218' has been published.
+ 2017-08-21 13:42:41,891 [P956/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Área de Sigilo' with Id '1211' has been published.
+ 2017-08-21 13:42:46,060 [P956/D2/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 13:42:46,063 [P956/D2/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 13:42:54,428 [P956/D2/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ANÁLISE DOS DADOS' with Id '1218' has been published.
+ 2017-08-21 13:42:58,580 [P956/D2/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 13:42:58,583 [P956/D2/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 13:43:14,252 [P956/D2/T14] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Frete' with Id '1323' has been published.
+ 2017-08-21 13:43:14,253 [P956/D2/T14] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tecnologia' with Id '1219' has been published.
+ 2017-08-21 13:43:18,423 [P956/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 13:43:18,426 [P956/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 13:46:06,375 [P956/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Análise dos dados' with Id '1218' has been published.
+ 2017-08-21 13:46:10,486 [P956/D2/T63] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 13:46:10,489 [P956/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 13:47:35,305 [P956/D2/T4] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Frete' with Id '1323' has been published.
+ 2017-08-21 13:47:39,392 [P956/D2/T59] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 13:47:39,413 [P956/D2/T59] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:00:16,925 [P956/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 14:00:16,927 [P956/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-08-21 14:00:16,928 [P956/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-21 14:00:16,930 [P956/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 1ms)
+ 2017-08-21 14:06:57,835 [P956/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Engenharia' with Id '0' has been published.
+ 2017-08-21 14:07:01,927 [P956/D2/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:07:01,937 [P956/D2/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:07:32,792 [P956/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Engenharia' with Id '1329' has been published.
+ 2017-08-21 14:07:32,793 [P956/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Análise dos dados' with Id '1218' has been published.
+ 2017-08-21 14:07:32,795 [P956/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Frete' with Id '1323' has been published.
+ 2017-08-21 14:07:32,796 [P956/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tecnologia' with Id '1219' has been published.
+ 2017-08-21 14:07:37,092 [P956/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:07:37,112 [P956/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:09:20,033 [P956/D2/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Análise dos dados' with Id '1218' has been published.
+ 2017-08-21 14:09:24,138 [P956/D2/T59] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:09:24,162 [P956/D2/T59] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:09:30,975 [P956/D2/T4] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Análise dos dados' with Id '1218' has been published.
+ 2017-08-21 14:09:30,976 [P956/D2/T4] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Área de Sigilo' with Id '1211' has been published.
+ 2017-08-21 14:09:35,134 [P956/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:09:35,162 [P956/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:16:46,660 [P956/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Laboratório' with Id '1145' has been published.
+ 2017-08-21 14:16:50,811 [P956/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:16:50,837 [P956/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:20:07,558 [P956/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Laboratório' with Id '1145' has been published.
+ 2017-08-21 14:20:11,678 [P956/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:20:11,687 [P956/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:21:06,567 [P956/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '03 - LABORATÓRIO' with Id '1272' has been published.
+ 2017-08-21 14:21:06,567 [P956/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '02 - IMAGEM TESTE' with Id '1274' has been published.
+ 2017-08-21 14:21:10,766 [P956/D2/T4] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:21:10,769 [P956/D2/T4] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:21:23,219 [P956/D2/T14] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'LABORATÓRIO ESTRUTURAL' with Id '1272' has been published.
+ 2017-08-21 14:21:27,371 [P956/D2/T4] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:21:27,374 [P956/D2/T4] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:21:35,489 [P956/D2/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Base Sísmica' with Id '1270' has been published.
+ 2017-08-21 14:21:39,612 [P956/D2/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:21:39,615 [P956/D2/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:21:46,989 [P956/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '02 - IMAGEM TESTE' with Id '1274' has been unpublished.
+ 2017-08-21 14:21:51,165 [P956/D2/T59] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:21:51,168 [P956/D2/T59] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:23:17,925 [P956/D2/T31] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'MÁQUINA "x"' with Id '0' has been published.
+ 2017-08-21 14:23:22,020 [P956/D2/T14] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:23:22,023 [P956/D2/T14] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:32:12,843 [P956/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sobre' with Id '1140' has been published.
+ 2017-08-21 14:32:16,940 [P956/D2/T4] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:32:16,963 [P956/D2/T4] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:44:54,925 [P956/D2/T54] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: wagner.dias@fras-le.com, IP Address: 172.25.164.12
+ 2017-08-21 14:45:00,925 [P956/D2/T8] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: wagner.dias@fras-le.com, IP Address: 172.25.164.12
+ 2017-08-21 14:52:24,702 [P956/D2/T63] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username wagner.dias@fras-le.com from IP address 172.25.164.12
+ 2017-08-21 14:52:24,703 [P956/D2/T63] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: wagner.dias@fras-le.com logged in from IP address 172.25.164.12
+ 2017-08-21 14:53:10,497 [P956/D2/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '11 - Circular com Lombadas' with Id '1198' has been published.
+ 2017-08-21 14:53:14,597 [P956/D2/T59] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:53:14,600 [P956/D2/T59] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:54:00,737 [P956/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '10 - Alta Velocidade' with Id '1197' has been published.
+ 2017-08-21 14:54:04,845 [P956/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:54:04,848 [P956/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:54:37,110 [P956/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '01 - Estrada de Chão' with Id '1175' has been published.
+ 2017-08-21 14:54:41,207 [P956/D2/T14] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:54:41,210 [P956/D2/T14] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:55:11,232 [P956/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '13 - Salom' with Id '1200' has been published.
+ 2017-08-21 14:55:15,342 [P956/D2/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:55:15,345 [P956/D2/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:55:58,532 [P956/D2/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '01 - Estrada de Chão' with Id '1175' has been published.
+ 2017-08-21 14:56:02,639 [P956/D2/T63] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:56:02,670 [P956/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:58:02,150 [P956/D2/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '10 - Alta Velocidade' with Id '1197' has been published.
+ 2017-08-21 14:58:06,303 [P956/D2/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:58:06,306 [P956/D2/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 14:59:28,262 [P956/D2/T31] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '14 a 18 - Pista de Durabilidade' with Id '1201' has been published.
+ 2017-08-21 14:59:32,368 [P956/D2/T29] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 14:59:32,371 [P956/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 15:00:18,618 [P956/D2/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '14 a 18 - Pista de Durabilidade' with Id '1201' has been published.
+ 2017-08-21 15:00:22,730 [P956/D2/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 15:00:22,762 [P956/D2/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 15:04:29,677 [P956/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '14 a 18 - Pista de Durabilidade' with Id '1201' has been published.
+ 2017-08-21 15:04:33,847 [P956/D2/T63] INFO  umbraco.content - Save Xml to file...
+ 2017-08-21 15:04:33,850 [P956/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-21 15:10:27,491 [P956/D2/T31] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username wagner.dias@fras-le.com from IP address 172.25.164.12
+ 2017-08-21 15:10:27,492 [P956/D2/T31] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: wagner.dias@fras-le.com logged in from IP address 172.25.164.12
+ 2017-08-21 15:10:27,583 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-21 15:10:27,584 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-21 15:10:27,585 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-21 15:10:27,586 [P956/D2/T8] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 1ms)
+ 2017-08-21 17:31:01,385 [P956/D2/T64] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-20 17:31:01
+ 2017-08-21 21:31:01,391 [P956/D2/T56] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-20 21:31:01

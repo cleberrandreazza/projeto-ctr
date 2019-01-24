@@ -1,0 +1,131 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "umbLayout.cshtml";
+    var banner2 = Umbraco.Field("homeBanner2Titulo").ToString();
+    var banner1_link = Umbraco.Field("homeBanner1Link").ToString();
+    var banner2_link = Umbraco.Field("homeBanner2Link").ToString();
+}
+
+<section id="home">
+	<div class="banner">
+		<div class="container">
+			<ul class="bullets">
+				<li class="active" onclick="changeSlider('0')"></li>
+                @if (!String.IsNullOrEmpty(banner2))
+                {
+				<li class="next" onclick="changeSlider('1')"></li>
+                }
+			</ul>
+			<ul class="list_banners">
+				<li class="active">
+					<div class="content">
+						<div class="grid text">
+							<div class="content_text">
+								<h2>@Umbraco.Field("homeBanner1Titulo")</h2>
+								<p>@Umbraco.Field("homeBanner1SubTitulo")</p>
+                                @if (!String.IsNullOrEmpty(banner1_link)) {
+								<a href="@Umbraco.Field("homeBanner1Link")" title="@Umbraco.Field("homeBanner1TextoDoLink")" class="btn">@Umbraco.Field("homeBanner1TextoDoLink")</a>
+                                }
+							</div>
+						</div>
+						<div class="grid img" style="background: url(@Umbraco.Media(@Umbraco.Field("homeBanner1Image").ToString()).Url) no-repeat center center / cover"></div>
+					</div>
+				</li>
+				@if (!String.IsNullOrEmpty(banner2))  {
+				<li class="next">
+					<div class="content">
+						<div class="grid text">
+							<div class="content_text">
+								<h2>@Umbraco.Field("homeBanner2Titulo")</h2>
+								<p>@Umbraco.Field("homeBanner2SubTitulo")</p>
+                                @if (!String.IsNullOrEmpty(banner2_link))
+                                {
+								<a href="@Umbraco.Field("homeBanner2Link")" title="@Umbraco.Field("homeBanner2TextoDoLink")" class="btn">@Umbraco.Field("homeBanner2TextoDoLink")</a>
+                                }
+							</div>
+						</div>
+						<div class="grid img" style="background: url(@Umbraco.Media(@Umbraco.Field("homeBanner2Imagem").ToString()).Url) no-repeat center center / cover"></div>
+					</div>
+				</li>
+				}
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<div class="content_pistas">
+			<div class="header">
+				<div class="grid img" style="background: url(@Umbraco.Media(@Umbraco.Field("imagem").ToString()).Url) no-repeat center center / cover"></div>
+				<div class="grid">
+					<div class="slider">
+						<ul>
+							<li class="active">
+								<p>@Umbraco.Field("hectares")<span>@Umbraco.Field("#Hectares").ToString()</span></p>
+							</li>
+							<li>
+								<p>@Umbraco.Field("tiposDePista")<span>@Umbraco.Field("#Tipos de pista").ToString()</span></p>
+							</li>
+							<li>
+								<p>@Umbraco.Field("quilometros")<span>@Umbraco.Field("#Quilômetros").ToString()</span></p>
+							</li>
+							<li>
+								<p>@Umbraco.Field("hectares")<span>@Umbraco.Field("#Hectares").ToString()</span></p>
+							</li>
+                            <li>
+                                <p>@Umbraco.Field("metrosQuadrados", recursive: true) <span>@Umbraco.Field("metrosQuadradosSubTitulo", recursive: true)</span></p>
+                            </li>
+						</ul>
+					</div>
+					<div class="text">
+						<p>@Umbraco.Field("textoIntrodutorio")</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+                <ul class="fields">
+                    <li>@Umbraco.Field("#OFF-ROAD").ToString()</li>
+                    <li>@Umbraco.Field("#ASFALTO E PISTAS ESPECIAIS").ToString()</li>
+                </ul>
+				<div class="mapa"  style="background: url('/_assets/images/mapa.png') no-repeat center center / contain" ></div>
+				<a href="@Umbraco.Field("homePistasLink")" title="@Umbraco.Field("homePistasTextoDoLink")" class="btn">@Umbraco.Field("homePistasTextoDoLink")</a>
+			</div>
+		</div>
+	</div>
+	<div class="chamada_video">
+		<a  data-fancybox="video" href="https://www.youtube.com/watch?v=@Umbraco.Field("homeVideo")" class="video"></a>
+		<div class="blob">
+		  <div class="ring"></div>
+		  <div class="pulse pulse--1"></div>
+		  <div class="pulse pulse--2"></div>
+		  <div class="pulse pulse--3"></div>
+		</div>
+	</div>
+	<div class="content_laboratorio">
+		<div class="content">
+			<div class="line">
+				<div class="grid bg">
+					<div class="text">
+						<h3>@Umbraco.Field("homeBox1Titulo", removeParagraphTags: true)</h3>
+					</div>
+				</div>
+				<div class="grid">
+					<div class="text">
+						<h4>@Umbraco.Field("homeBox2Titulo")</h4>
+						<p>@Umbraco.Field("homeBox2Texto")</p>
+						<a href="@Umbraco.Field("homeBox2Link")" title="@Umbraco.Field("#Saiba mais").ToString()" class="btn">@Umbraco.Field("#Saiba mais").ToString()</a>
+					</div>
+				</div>
+			</div>
+			<div class="line">
+				<div class="grid">
+					<div class="text">
+						<h4>@Umbraco.Field("homeBox3Titulo")</h4>
+						<p>@Umbraco.Field("homeBox3Texto")</p>
+						<a href="@Umbraco.Field("homeBox3Link")" title="@Umbraco.Field("#Saiba mais").ToString()" class="btn">@Umbraco.Field("#Saiba mais").ToString()</a>
+					</div>
+				</div>
+				<div class="grid img" style="background: url(@Umbraco.Media(Umbraco.Field("homeBox4Imagem").ToString()).Url) no-repeat center center / cover" ></div>
+			</div>
+			<div class="oval"></div>
+		</div>
+	</div>
+</section>

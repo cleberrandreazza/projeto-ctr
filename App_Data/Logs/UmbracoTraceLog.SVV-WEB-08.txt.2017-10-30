@@ -1,0 +1,315 @@
+﻿ 2017-10-30 09:59:21,759 [P14040/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.3 application starting on SVV-WEB-08
+ 2017-10-30 09:59:21,940 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-10-30 09:59:21,947 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2017-10-30 09:59:22,022 [P14040/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-10-30 09:59:22,031 [P14040/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-10-30 09:59:22,035 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 09:59:24,463 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 2428ms)
+ 2017-10-30 09:59:24,464 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-10-30 09:59:24,465 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2017-10-30 09:59:24,676 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 09:59:24,677 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-10-30 09:59:24,678 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-10-30 09:59:24,678 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2017-10-30 09:59:24,679 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 09:59:24,679 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-30 09:59:24,680 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-10-30 09:59:24,682 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 2ms)
+ 2017-10-30 09:59:24,775 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 09:59:24,776 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-30 09:59:24,776 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-10-30 09:59:24,777 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2017-10-30 09:59:24,778 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 09:59:24,778 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-30 09:59:24,779 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-10-30 09:59:24,780 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2017-10-30 09:59:28,506 [P14040/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-30 09:59:29,115 [P14040/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-10-30 09:59:29,206 [P14040/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-10-30 09:59:29,330 [P14040/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-10-30 09:59:29,861 [P14040/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-10-30 09:59:30,134 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 09:59:30,135 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-30 09:59:30,136 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-10-30 09:59:30,137 [P14040/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 1ms)
+ 2017-10-30 09:59:30,289 [P14040/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 9089ms)
+ 2017-10-30 09:59:35,927 [P14040/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://hmlg-campodeprovas.randon.com.br:80/umbraco (UmbracoModule request)
+ 2017-10-30 09:59:41,108 [P14040/D2/T11] INFO  umbraco.content - Load Xml from file...
+ 2017-10-30 09:59:41,175 [P14040/D2/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2017-10-30 09:59:43,443 [P14040/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 09:59:43,444 [P14040/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-30 09:59:43,445 [P14040/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-10-30 09:59:43,446 [P14040/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 1ms)
+ 2017-10-30 09:59:45,704 [P14040/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 09:59:45,706 [P14040/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-10-30 09:59:45,707 [P14040/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2017-10-30 09:59:45,708 [P14040/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 0ms)
+ 2017-10-30 10:00:09,018 [P14040/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 10:00:09,019 [P14040/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-30 10:00:09,025 [P14040/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-10-30 10:00:09,027 [P14040/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 1ms)
+ 2017-10-30 10:00:14,259 [P14040/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 10:00:14,260 [P14040/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-30 10:00:14,261 [P14040/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-10-30 10:00:14,262 [P14040/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 1ms)
+ 2017-10-30 10:00:14,299 [P14040/D2/T12] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username wagner.dias@fras-le.com from IP address 172.25.164.40
+ 2017-10-30 10:00:14,302 [P14040/D2/T12] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: wagner.dias@fras-le.com logged in from IP address 172.25.164.40
+ 2017-10-30 10:00:14,908 [P14040/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 10:00:14,912 [P14040/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 4ms)
+ 2017-10-30 10:00:14,913 [P14040/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-10-30 10:00:14,914 [P14040/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 1ms)
+ 2017-10-30 10:00:15,138 [P14040/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 10:00:15,139 [P14040/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-30 10:00:15,139 [P14040/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-10-30 10:00:15,140 [P14040/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 1ms)
+ 2017-10-30 10:00:15,178 [P14040/D2/T16] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 10:00:15,179 [P14040/D2/T16] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-30 10:00:15,180 [P14040/D2/T16] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-10-30 10:00:15,182 [P14040/D2/T16] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 1ms)
+ 2017-10-30 10:00:15,217 [P14040/D2/T16] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 10:00:15,217 [P14040/D2/T16] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-30 10:00:15,218 [P14040/D2/T16] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-10-30 10:00:15,219 [P14040/D2/T16] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-10-30 10:00:15,225 [P14040/D2/T16] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 10:00:15,230 [P14040/D2/T16] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 5ms)
+ 2017-10-30 10:00:15,231 [P14040/D2/T16] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-10-30 10:00:15,233 [P14040/D2/T16] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 1ms)
+ 2017-10-30 10:00:41,379 [P14040/D2/T10] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-29 10:00:41
+ 2017-10-30 10:12:31,704 [P14040/D2/T37] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ES' with Id '1241' has been published.
+ 2017-10-30 10:12:37,263 [P14040/D2/T36] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:12:37,292 [P14040/D2/T36] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:13:09,429 [P14040/D2/T37] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ES' with Id '1241' has been published.
+ 2017-10-30 10:13:14,321 [P14040/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:13:14,325 [P14040/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:15:49,843 [P14040/D2/T31] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ES' with Id '1241' has been published.
+ 2017-10-30 10:15:54,065 [P14040/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:15:54,131 [P14040/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:15:55,548 [P14040/D2/T31] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ES' with Id '1241' has been published.
+ 2017-10-30 10:15:59,802 [P14040/D2/T48] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:15:59,868 [P14040/D2/T48] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:27:40,544 [P14040/D2/T37] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ES' with Id '1241' has been published.
+ 2017-10-30 10:27:44,790 [P14040/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:27:44,794 [P14040/D2/T26] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:28:04,917 [P14040/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ES' with Id '1241' has been published.
+ 2017-10-30 10:28:09,157 [P14040/D2/T39] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:28:09,163 [P14040/D2/T39] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:30:21,717 [P14040/D2/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ES' with Id '1241' has been published.
+ 2017-10-30 10:30:25,914 [P14040/D2/T39] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:30:25,918 [P14040/D2/T39] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:35:48,368 [P14040/D2/T53] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ES' with Id '1241' has been published.
+ 2017-10-30 10:35:52,599 [P14040/D2/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:35:52,603 [P14040/D2/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:37:33,986 [P14040/D2/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ES' with Id '1241' has been published.
+ 2017-10-30 10:37:38,198 [P14040/D2/T65] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:37:38,207 [P14040/D2/T65] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:38:05,710 [P14040/D2/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ES' with Id '1241' has been published.
+ 2017-10-30 10:38:10,004 [P14040/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:38:10,009 [P14040/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:39:55,215 [P14040/D2/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ES' with Id '1241' has been published.
+ 2017-10-30 10:39:59,447 [P14040/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:39:59,453 [P14040/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:41:16,140 [P14040/D2/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ES' with Id '1241' has been published.
+ 2017-10-30 10:41:20,332 [P14040/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:41:20,336 [P14040/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:42:11,475 [P14040/D2/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ES' with Id '1241' has been published.
+ 2017-10-30 10:42:15,702 [P14040/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:42:15,767 [P14040/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:42:21,271 [P14040/D2/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ES' with Id '1241' has been published.
+ 2017-10-30 10:42:25,577 [P14040/D2/T58] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:42:25,608 [P14040/D2/T58] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:43:01,866 [P14040/D2/T58] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 10:43:01,867 [P14040/D2/T58] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-30 10:43:01,867 [P14040/D2/T58] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-10-30 10:43:01,868 [P14040/D2/T58] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2017-10-30 10:43:01,966 [P14040/D2/T58] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 10:43:01,967 [P14040/D2/T58] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-10-30 10:43:01,968 [P14040/D2/T58] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-10-30 10:43:02,273 [P14040/D2/T58] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 304ms)
+ 2017-10-30 10:44:44,308 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ES' with Id '1241' has been published.
+ 2017-10-30 10:44:48,582 [P14040/D2/T73] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:44:48,586 [P14040/D2/T73] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:46:15,876 [P14040/D2/T69] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sobre' with Id '1242' has been published.
+ 2017-10-30 10:46:20,150 [P14040/D2/T65] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:46:20,153 [P14040/D2/T65] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:47:00,186 [P14040/D2/T69] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sobre' with Id '1242' has been published.
+ 2017-10-30 10:47:04,467 [P14040/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:47:04,471 [P14040/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:50:04,866 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sobre' with Id '1242' has been published.
+ 2017-10-30 10:50:09,008 [P14040/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:50:09,046 [P14040/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:51:01,463 [P14040/D2/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Item 01' with Id '1244' has been unpublished.
+ 2017-10-30 10:51:05,851 [P14040/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:51:05,855 [P14040/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:51:07,456 [P14040/D2/T70] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 10:51:07,457 [P14040/D2/T70] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-10-30 10:51:07,458 [P14040/D2/T70] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-10-30 10:51:07,459 [P14040/D2/T70] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-10-30 10:51:42,603 [P14040/D2/T67] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 10:51:42,605 [P14040/D2/T67] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-10-30 10:51:42,606 [P14040/D2/T67] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-10-30 10:51:42,606 [P14040/D2/T67] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-10-30 10:51:49,266 [P14040/D2/T68] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 10:51:49,267 [P14040/D2/T68] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-30 10:51:49,268 [P14040/D2/T68] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-10-30 10:51:49,269 [P14040/D2/T68] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-10-30 10:54:11,618 [P14040/D2/T67] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Laboratorio' with Id '1243' has been published.
+ 2017-10-30 10:54:15,817 [P14040/D2/T65] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:54:15,821 [P14040/D2/T65] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 10:57:40,756 [P14040/D2/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '01 - Estrada de Chão' with Id '1246' has been published.
+ 2017-10-30 10:57:44,954 [P14040/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 10:57:44,958 [P14040/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:04:01,190 [P14040/D2/T58] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '01 - Estrada de Chão' with Id '1246' has been published.
+ 2017-10-30 11:04:05,381 [P14040/D2/T73] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:04:05,385 [P14040/D2/T73] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:07:00,814 [P14040/D2/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '02 a 08 - Rampas' with Id '1247' has been published.
+ 2017-10-30 11:07:05,009 [P14040/D2/T69] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:07:05,021 [P14040/D2/T69] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:09:19,279 [P14040/D2/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '01 - Estrada de Chão' with Id '1246' has been published.
+ 2017-10-30 11:09:23,965 [P14040/D2/T69] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:09:23,968 [P14040/D2/T69] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:09:41,974 [P14040/D2/T67] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '02 a 08 - Rampas' with Id '1247' has been published.
+ 2017-10-30 11:09:46,503 [P14040/D2/T68] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:09:46,507 [P14040/D2/T68] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:10:53,074 [P14040/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '01 - Estrada de Chão' with Id '1246' has been published.
+ 2017-10-30 11:10:57,509 [P14040/D2/T67] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:10:57,513 [P14040/D2/T67] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:20:19,194 [P14040/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '01 - Estrada de Chão' with Id '1246' has been published.
+ 2017-10-30 11:20:23,650 [P14040/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:20:23,678 [P14040/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:21:52,170 [P14040/D2/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '09 - Ruído de Passagem' with Id '1248' has been published.
+ 2017-10-30 11:21:56,438 [P14040/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:21:56,442 [P14040/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:25:50,588 [P14040/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '10 - Alta Velocidade' with Id '1249' has been published.
+ 2017-10-30 11:25:54,791 [P14040/D2/T68] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:25:54,795 [P14040/D2/T68] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:27:46,047 [P14040/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '10 - Alta Velocidade' with Id '1249' has been published.
+ 2017-10-30 11:27:50,254 [P14040/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:27:50,258 [P14040/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:30:26,473 [P14040/D2/T69] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '11 - Circular com Lombadas' with Id '1250' has been published.
+ 2017-10-30 11:30:30,652 [P14040/D2/T68] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:30:30,687 [P14040/D2/T68] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:32:02,006 [P14040/D2/T67] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '11 - Circular com Lombadas' with Id '1250' has been published.
+ 2017-10-30 11:32:06,133 [P14040/D2/T68] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:32:06,137 [P14040/D2/T68] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:33:23,077 [P14040/D2/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '12 - Circular' with Id '1251' has been published.
+ 2017-10-30 11:33:27,207 [P14040/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:33:27,211 [P14040/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:36:05,603 [P14040/D2/T58] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '13 - Salom' with Id '1252' has been published.
+ 2017-10-30 11:36:09,785 [P14040/D2/T65] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:36:09,789 [P14040/D2/T65] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:36:37,916 [P14040/D2/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '13 - Salom' with Id '1252' has been published.
+ 2017-10-30 11:36:42,043 [P14040/D2/T68] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:36:42,107 [P14040/D2/T68] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:41:13,461 [P14040/D2/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '14 a 18 - Pista de Durabilidade' with Id '1253' has been published.
+ 2017-10-30 11:41:17,647 [P14040/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:41:17,651 [P14040/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:44:36,333 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ingeniería' with Id '0' has been published.
+ 2017-10-30 11:44:40,568 [P14040/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:44:40,572 [P14040/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:45:03,848 [P14040/D2/T69] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Garantia de Processos' with Id '1256' has been unpublished.
+ 2017-10-30 11:45:08,013 [P14040/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:45:08,017 [P14040/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:46:06,400 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Análisis de datos' with Id '0' has been published.
+ 2017-10-30 11:46:10,551 [P14040/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:46:10,555 [P14040/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:47:03,024 [P14040/D2/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Área de Sigilo' with Id '1255' has been published.
+ 2017-10-30 11:47:07,132 [P14040/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:47:07,148 [P14040/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:47:57,638 [P14040/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Flete' with Id '0' has been published.
+ 2017-10-30 11:48:01,757 [P14040/D2/T68] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:48:01,772 [P14040/D2/T68] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:48:12,863 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Flete' with Id '1360' has been published.
+ 2017-10-30 11:48:17,029 [P14040/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:48:17,047 [P14040/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:48:38,938 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tecnologia' with Id '1257' has been published.
+ 2017-10-30 11:48:43,080 [P14040/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:48:43,084 [P14040/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:48:54,144 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ingeniería' with Id '1358' has been published.
+ 2017-10-30 11:48:58,279 [P14040/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:48:58,303 [P14040/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:49:05,783 [P14040/D2/T67] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Análisis de datos' with Id '1359' has been published.
+ 2017-10-30 11:49:09,896 [P14040/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:49:09,901 [P14040/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:50:24,462 [P14040/D2/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Servicios' with Id '1254' has been published.
+ 2017-10-30 11:50:28,615 [P14040/D2/T58] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:50:28,618 [P14040/D2/T58] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:51:07,322 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ingeniería' with Id '1358' has been published.
+ 2017-10-30 11:51:07,323 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Análisis de datos' with Id '1359' has been published.
+ 2017-10-30 11:51:07,325 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Área de Sigilo' with Id '1255' has been published.
+ 2017-10-30 11:51:07,326 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Flete' with Id '1360' has been published.
+ 2017-10-30 11:51:07,327 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tecnologia' with Id '1257' has been published.
+ 2017-10-30 11:51:11,796 [P14040/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:51:11,800 [P14040/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:51:12,362 [P14040/D2/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Servicios' with Id '1254' has been published.
+ 2017-10-30 11:51:16,505 [P14040/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:51:16,509 [P14040/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:52:10,242 [P14040/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contáctenos' with Id '1258' has been published.
+ 2017-10-30 11:52:14,424 [P14040/D2/T68] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:52:14,428 [P14040/D2/T68] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:52:36,970 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contáctenos' with Id '1258' has been published.
+ 2017-10-30 11:52:41,084 [P14040/D2/T73] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:52:41,088 [P14040/D2/T73] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:55:59,790 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sobre' with Id '1242' has been published.
+ 2017-10-30 11:56:03,915 [P14040/D2/T58] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:56:03,995 [P14040/D2/T58] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:56:46,846 [P14040/D2/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sobre' with Id '1242' has been published.
+ 2017-10-30 11:56:50,967 [P14040/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:56:51,045 [P14040/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:57:55,966 [P14040/D2/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sobre' with Id '1242' has been published.
+ 2017-10-30 11:58:00,153 [P14040/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:58:00,191 [P14040/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:58:33,739 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sobre' with Id '1242' has been published.
+ 2017-10-30 11:58:37,884 [P14040/D2/T73] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:58:37,888 [P14040/D2/T73] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 11:59:21,519 [P14040/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sobre' with Id '1242' has been published.
+ 2017-10-30 11:59:25,797 [P14040/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 11:59:25,801 [P14040/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 12:59:21,619 [P14040/D2/T22] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username wagner.dias@fras-le.com from IP address 172.25.164.40
+ 2017-10-30 12:59:21,620 [P14040/D2/T22] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: wagner.dias@fras-le.com logged in from IP address 172.25.164.40
+ 2017-10-30 12:59:21,727 [P14040/D2/T61] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 12:59:21,728 [P14040/D2/T61] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-30 12:59:21,729 [P14040/D2/T61] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-10-30 12:59:21,731 [P14040/D2/T61] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 2ms)
+ 2017-10-30 12:59:42,673 [P14040/D2/T53] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ingeniería' with Id '1358' has been published.
+ 2017-10-30 12:59:46,827 [P14040/D2/T22] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 12:59:46,830 [P14040/D2/T22] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 13:01:22,660 [P14040/D2/T11] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ingeniería' with Id '1358' has been published.
+ 2017-10-30 13:01:26,817 [P14040/D2/T52] INFO  umbraco.content - Save Xml to file...
+ 2017-10-30 13:01:26,820 [P14040/D2/T52] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-30 14:00:41,407 [P14040/D2/T41] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-29 14:00:41
+ 2017-10-30 14:45:39,782 [P14040/D2/T24] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username gestao.digital@deen.com.br from IP address 10.0.2.24
+ 2017-10-30 14:45:45,367 [P14040/D2/T33] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username felipe@deen.com.br from IP address 10.0.2.24
+ 2017-10-30 14:45:45,368 [P14040/D2/T33] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: felipe@deen.com.br logged in from IP address 10.0.2.24
+ 2017-10-30 14:45:45,474 [P14040/D2/T39] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 14:45:45,474 [P14040/D2/T39] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-30 14:45:45,475 [P14040/D2/T39] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-10-30 14:45:45,475 [P14040/D2/T39] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-10-30 14:51:32,338 [P14040/D2/T24] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-30 14:51:32,339 [P14040/D2/T24] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-30 14:51:32,340 [P14040/D2/T24] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
+ 2017-10-30 14:51:32,400 [P14040/D2/T24] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 60ms)
+ 2017-10-30 14:51:53,637 [P14040/D2/T39] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 23.100.15.180:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2017-10-30 15:05:15,655 [P14040/D2/T39] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: felipe@deen.com.br, IP Address: 10.0.2.24
+ 2017-10-30 15:05:21,659 [P14040/D2/T24] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: felipe@deen.com.br, IP Address: 10.0.2.24
+ 2017-10-30 15:07:05,218 [P14040/D2/T39] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username felipe@deen.com.br from IP address 10.0.2.24
+ 2017-10-30 15:07:05,219 [P14040/D2/T39] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: felipe@deen.com.br logged in from IP address 10.0.2.24
+ 2017-10-30 15:22:25,662 [P14040/D2/T45] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 93.90.118.244:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2017-10-30 15:48:21,247 [P14040/D2/T44] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: felipe@deen.com.br, IP Address: 10.0.2.24
+ 2017-10-30 16:09:54,588 [P14040/D2/T47] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username felipe@deen.com.br from IP address 10.0.2.24
+ 2017-10-30 16:09:54,589 [P14040/D2/T47] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: felipe@deen.com.br logged in from IP address 10.0.2.24
+ 2017-10-30 18:00:41,432 [P14040/D2/T47] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-29 18:00:41
+ 2017-10-30 22:00:41,453 [P14040/D2/T45] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-29 22:00:41

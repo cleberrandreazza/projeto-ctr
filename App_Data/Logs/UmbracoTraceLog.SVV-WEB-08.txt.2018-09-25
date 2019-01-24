@@ -1,0 +1,41 @@
+﻿ 2018-09-25 01:14:15,204 [P19904/D2/T109] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-09-24 01:14:15
+ 2018-09-25 05:14:15,314 [P19904/D2/T212] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-09-24 05:14:15
+ 2018-09-25 09:14:15,383 [P19904/D2/T214] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-09-24 09:14:15
+ 2018-09-25 12:43:25,676 [P19904/D2/T156] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username felipe@deen.com.br from IP address 10.0.2.24
+ 2018-09-25 12:43:25,677 [P19904/D2/T156] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: felipe@deen.com.br logged in from IP address 10.0.2.24
+ 2018-09-25 12:43:26,410 [P19904/D2/T43] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-09-25 12:43:26,416 [P19904/D2/T43] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 16ms)
+ 2018-09-25 12:43:26,417 [P19904/D2/T43] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-09-25 12:43:26,417 [P19904/D2/T43] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2018-09-25 13:02:56,804 [P19904/D2/T10] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: felipe@deen.com.br, IP Address: 10.0.2.24
+ 2018-09-25 13:14:15,426 [P19904/D2/T191] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-09-24 13:14:15
+ 2018-09-25 13:44:12,782 [P19904/D2/T59] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username felipe@deen.com.br from IP address 10.0.2.24
+ 2018-09-25 13:44:12,783 [P19904/D2/T59] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: felipe@deen.com.br logged in from IP address 10.0.2.24
+ 2018-09-25 14:03:43,791 [P19904/D2/T240] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: felipe@deen.com.br, IP Address: 10.0.2.24
+ 2018-09-25 14:12:41,404 [P19904/D2/T132] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-09-25 14:12:41,405 [P19904/D2/T132] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-09-25 14:12:41,433 [P19904/D2/T132] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-09-25 14:12:41,434 [P19904/D2/T132] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-09-25 14:12:41,435 [P19904/D2/T132] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-09-25 14:12:41,436 [P19904/D2/T132] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-09-25 14:12:41,437 [P19904/D2/T132] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-09-25 14:12:41,438 [P19904/D2/T132] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-09-25 14:12:41,439 [P19904/D2/T132] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-09-25 14:12:41,443 [P19904/D2/T132] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-09-25 14:12:41,491 [P19904/D2/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-09-25 14:12:41,491 [P19904/D2/T54] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-09-25 14:12:41,491 [P19904/D2/T145] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-09-25 14:12:41,491 [P19904/D2/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-09-25 14:12:41,492 [P19904/D2/T213] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-09-25 14:12:41,493 [P19904/D2/T132] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-09-25 14:12:41,555 [P19904/D2/T132] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-09-25 14:13:11,746 [P19904/D2/T240] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()

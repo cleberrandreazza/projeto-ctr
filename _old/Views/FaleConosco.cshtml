@@ -1,0 +1,48 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.FaleConosco>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "umbLayout.cshtml";
+	var form_guid = Umbraco.Field("formulario").ToString();
+}
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/mvc/5.1/jquery.validate.unobtrusive.min.js"></script>
+
+<section id="contato">
+	<div class="header"  style="background: url(@Umbraco.Media(@Umbraco.Field("faleImagem").ToString()).Url) no-repeat center center / cover"  data-stellar-background-ratio="0.8"></div>
+	<div class="content_top">
+		<div class="grid">
+			<div class="content_text">
+				<div class="box_contato">
+					<p>@Umbraco.Field("telefone", recursive: true)</p>
+					<a href="mailto:@Umbraco.Field("eMail", recursive: true)" title="Email">@Umbraco.Field("eMail", recursive: true)</a>
+				</div>
+				<div class="box_text">
+					<h2>@Umbraco.Field("faleTitulo")</h2>
+				</div>
+			</div>
+		</div>
+		<div class="grid">
+			<div class="form">
+			    @Umbraco.RenderMacro("renderUmbracoForm", new {FormGuid="6ab5598a-b83e-44b3-b2e8-494d0e91fb9d", FormTheme="", ExcludeScripts="0"})
+			</div>
+		</div>
+	</div>
+	<div class="content_bottom">
+		<div class="grid" id="como_chegar">
+			<div id="map_div"></div>
+			<input type="hidden" name="latitude" id="latitude" value="@Umbraco.Field("latitude", recursive: true)" />
+			<input type="hidden" name="longitude" id="longitude" value="@Umbraco.Field("longitude", recursive: true)" />  
+		</div>
+		<div class="grid">
+			<div class="text">
+				<h3>@Umbraco.Field("#COMO CHEGAR AO CAMPO DE PROVAS").ToString()</h3>
+				<p>@Umbraco.Field("enderecoLinha1", recursive: true)</p>
+				<p>@Umbraco.Field("enderecoLinha2", recursive: true)</p>
+				<p>@Umbraco.Field("#Coordenadas").ToString():<br></p>
+				<p>@Umbraco.Field("latitude", recursive: true)<br></p>
+				<p>@Umbraco.Field("longitude", recursive: true)</p>
+				<a href="#!" title="Abrir no Google Maps" class="btn" target="_blank">Abrir no Google Maps</a>
+			</div>
+		</div>
+	</div>					
+</section>

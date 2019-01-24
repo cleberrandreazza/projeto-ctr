@@ -1,0 +1,445 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Pistas>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+    Layout = "umbLayout.cshtml";
+
+    var items = CurrentPage.Children;
+    var j = 0;
+}
+
+<section id="pistas">
+	<div class="content_header">
+		<div class="content">
+            @for (int i = 1; i <= 18; i++)
+            {
+                var num = i.ToString("00");
+                var title = "";
+                var item_title = uQuery.GetNode(Umbraco.Field("pistaMark" + num).ToString());
+                if (item_title != null)
+                {
+                    title = item_title.PropertiesAsList[1].ToString();
+                }
+			<div class="button _@i.ToString() pista_@i.ToString()" data-row-id="pista_@Umbraco.Field("pistaMark"+num)">
+				<p class="number">@num</p>
+				<div class="text">
+					<p>@title</p>
+				</div>
+			</div>
+            }
+		</div>
+	</div>			
+	<div class="content_pistas">
+		<div class="menu">
+			<ul>
+				@foreach (var item in items)
+                {
+				<li>
+					<a href="javascript:void(0)" title="@item.pistaItemTitulo"  data-row-id="pista_@item.Id"><span>@item.pistaItemNumero</span> @item.pistaItemTitulo</a>
+				</li>
+                }
+                @{ /*
+ <li>
+ <a href="javascript:void(0)" title="ESTRADA DE CHÃO (OFF-ROAD)"  data-row-id="pista_2"><span>02 a 08</span> RAMPAS</a>
+ </li>
+ <li>
+ <a href="javascript:void(0)" title="ESTRADA DE CHÃO (OFF-ROAD)"  data-row-id="pista_9"><span>09</span> RUÍDO DE PASSAGEM</a>
+ </li>
+ <li>
+ <a href="javascript:void(0)" title="ESTRADA DE CHÃO (OFF-ROAD)"  data-row-id="pista_10"><span>10</span> ALTA VELOCIDADE</a>
+ </li>
+ <li>
+ <a href="javascript:void(0)" title="ESTRADA DE CHÃO (OFF-ROAD)"  data-row-id="pista_11"><span>11</span> CIRCULAR COM LOMBADAS</a>
+ </li>
+ <li>
+ <a href="javascript:void(0)" title="ESTRADA DE CHÃO (OFF-ROAD)"  data-row-id="pista_12"><span>12</span> CIRCULAR</a>
+ </li>
+ <li>
+ <a href="javascript:void(0)" title="ESTRADA DE CHÃO (OFF-ROAD)"  data-row-id="pista_13"><span>13</span> SLALOM</a>
+ </li>
+ <li>
+ <a href="javascript:void(0)" title="ESTRADA DE CHÃO (OFF-ROAD)"  data-row-id="pista_14"><span>14 a 18</span> PISTA DE DURABILIDADE</a>
+ </li>*/
+                }
+			</ul>
+		</div>
+		<ul class="list_itens">
+            @foreach (var item in items)
+            {
+			<li id="pista_@item.Id" class="row">
+				<div class="header" style="background: url(@Umbraco.Media(item.pistaItemHeader.ToString()).Url) no-repeat center center / cover" data-stellar-background-ratio="0.8"></div>
+				<div class="content">
+					<div class="grid">
+						<div class="text">
+							<div class="img" style="background: url(@Umbraco.Media(item.pistaItemImage.ToString()).Url) no-repeat center center / contain"></div>
+							<p class="number">@item.pistaItemNumero</p>
+							<h3>@item.pistaItemTitulo</h3>
+							@item.pistaItemTexto
+						</div>
+					</div>
+					<div class="grid">
+						<div class="content_slider">
+							<div class="slider">
+								<div class="swiper-container">
+									<div class="setas">
+										<div class="swiper-button-next"></div>
+										<div class="swiper-button-prev"></div>
+									</div>
+							    	<div class="swiper-wrapper">
+                                        @if (item.pistaItemVideo != null && item.pistaItemVideo != "")
+                                        {
+								        <div class="swiper-slide">
+								        	<div class="content_slide"  style="background: url(https://img.youtube.com/vi/@item.pistaItemVideo/hqdefault.jpg) no-repeat center center / cover">
+								        		<a  data-fancybox="gal1" href="https://www.youtube.com/watch?vq=hq&rel=0&showcontrols=0&v=@item.pistaItemVideo" class="video"></a>
+								        	</div>
+								        </div>
+                                        }
+                                        @foreach (var img in item.pistaItemImagens)
+                                        {
+                                            <div class="swiper-slide">
+                                                <div class="content_slide" style="background: url(@Umbraco.Media(img.ToString()).Url) no-repeat center center / cover">
+                                                    <a data-fancybox="gal1" href="@Umbraco.Media(img.ToString()).Url"></a>
+                                                </div>
+                                            </div>
+                                        }
+								    </div>
+								</div>							    
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+            }
+            @{ /*
+              <li id="pista_2"  class="row">
+                  <div class="header" style="background: url('/_assets/images/img_header_pista.png') no-repeat center center / cover" data-stellar-background-ratio="0.8"></div>
+                  <div class="content">
+                      <div class="grid">
+                          <div class="text">
+                              <div class="img" style="background: url('/_assets/images/mapa_mini.png')no-repeat center center / contain"></div>
+                              <p class="number">02 a 08</p>
+                              <h3>RAMPAS</h3>
+                              <p>São seis modalidades de rampas para aplicação de testes de homologação de freios conforme Resolução 519/19 do CONTRAN, testes de subida em rampas e testes do trem de força dos veículos.</p>
+                          </div>
+                      </div>
+                      <div class="grid">
+                          <div class="content_slider">
+                              <div class="slider">
+                                  <div class="swiper-container">
+                                      <div class="setas">
+                                          <div class="swiper-button-next"></div>
+                                          <div class="swiper-button-prev"></div>
+                                      </div>
+                                      <div class="swiper-wrapper">
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal2" href="https://www.youtube.com/watch?v=cO0WmhmVM2U" class="video"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal2" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal2" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal2" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>							    
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+              <li id="pista_9"  class="row">
+                  <div class="header" style="background: url('/_assets/images/img_header_pista.png')no-repeat center center / cover" data-stellar-background-ratio="0.8"></div>
+                  <div class="content">
+                      <div class="grid">
+                          <div class="text">
+                              <div class="img" style="background: url('/_assets/images/mapa_mini.png')no-repeat center center / contain"></div>
+                              <p class="number">09</p>
+                              <h3>ESTRADA DE CHÃO (OFF-ROAD)</h3>
+                              <p>Conhecida como local específico para medir o ruído emi- tido por veículos rodoviários, a medição das emissões de ruído de um veículo é feita de acordo com procedimentos descritos na ISO 362 e ISO 7188 e o tipo de superfície pode in uenciar signi cativamente os resultados do teste. Desta forma a pista foi construída conforme norma ISO 10844 que determina características essenciais para este tipo de pavi- mento como: textura, absorção sonora e impedância mecâ- nica. Esta pista também comtempla a execução de testes para determinar o nível de potência sonora em máquinas rodoviárias com pneus, além de testes conforme Normas da ABNT NBR ISO 6393/94/95/96.</p>
+                          </div>
+                      </div>
+                      <div class="grid">
+                          <div class="content_slider">
+                              <div class="slider">
+                                  <div class="swiper-container">
+                                      <div class="setas">
+                                          <div class="swiper-button-next"></div>
+                                          <div class="swiper-button-prev"></div>
+                                      </div>
+                                      <div class="swiper-wrapper">
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="https://www.youtube.com/watch?v=cO0WmhmVM2U" class="video"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>							    
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+              <li id="pista_10"  class="row">
+                  <div class="header" style="background: url('/_assets/images/img_header_pista.png')no-repeat center center / cover" data-stellar-background-ratio="0.8"></div>
+                  <div class="content">
+                      <div class="grid">
+                          <div class="text">
+                              <div class="img" style="background: url('/_assets/images/mapa_mini.png')no-repeat center center / contain"></div>
+                              <p class="number">10</p>
+                              <h3>ESTRADA DE CHÃO (OFF-ROAD)</h3>
+                              <p>Com um comprimento de 6,4 km e um circuito de utilização contínua, a utilização desta pista é destinada para execução de testes de durabilidade acelerada em veículos. Possui um controle do nível de severidade gerados aos veículos e componentes agregados aos veículos, além de fornecer contaminação como pó, pedras e outros tipos de inputs ne- cessários para testes desta natureza.</p>
+                          </div>
+                      </div>
+                      <div class="grid">
+                          <div class="content_slider">
+                              <div class="slider">
+                                  <div class="swiper-container">
+                                      <div class="setas">
+                                          <div class="swiper-button-next"></div>
+                                          <div class="swiper-button-prev"></div>
+                                      </div>
+                                      <div class="swiper-wrapper">
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="https://www.youtube.com/watch?v=cO0WmhmVM2U" class="video"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>							    
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+              <li id="pista_11"  class="row">
+                  <div class="header" style="background: url('/_assets/images/img_header_pista.png')no-repeat center center / cover" data-stellar-background-ratio="0.8"></div>
+                  <div class="content">
+                      <div class="grid">
+                          <div class="text">
+                              <div class="img" style="background: url('/_assets/images/mapa_mini.png')no-repeat center center / contain"></div>
+                              <p class="number">11</p>
+                              <h3>ESTRADA DE CHÃO (OFF-ROAD)</h3>
+                              <p>Com um comprimento de 6,4 km e um circuito de utilização contínua, a utilização desta pista é destinada para execução de testes de durabilidade acelerada em veículos. Possui um controle do nível de severidade gerados aos veículos e componentes agregados aos veículos, além de fornecer contaminação como pó, pedras e outros tipos de inputs ne- cessários para testes desta natureza.</p>
+                          </div>
+                      </div>
+                      <div class="grid">
+                          <div class="content_slider">
+                              <div class="slider">
+                                  <div class="swiper-container">
+                                      <div class="setas">
+                                          <div class="swiper-button-next"></div>
+                                          <div class="swiper-button-prev"></div>
+                                      </div>
+                                      <div class="swiper-wrapper">
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="https://www.youtube.com/watch?v=cO0WmhmVM2U" class="video"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>							    
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+              <li id="pista_12"  class="row">
+                  <div class="header" style="background: url('/_assets/images/img_header_pista.png')no-repeat center center / cover" data-stellar-background-ratio="0.8"></div>
+                  <div class="content">
+                      <div class="grid">
+                          <div class="text">
+                              <div class="img" style="background: url('/_assets/images/mapa_mini.png')no-repeat center center / contain"></div>
+                              <p class="number">12</p>
+                              <h3>ESTRADA DE CHÃO (OFF-ROAD)</h3>
+                              <p>Com um comprimento de 6,4 km e um circuito de utilização contínua, a utilização desta pista é destinada para execução de testes de durabilidade acelerada em veículos. Possui um controle do nível de severidade gerados aos veículos e componentes agregados aos veículos, além de fornecer contaminação como pó, pedras e outros tipos de inputs ne- cessários para testes desta natureza.</p>
+                          </div>
+                      </div>
+                      <div class="grid">
+                          <div class="content_slider">
+                              <div class="slider">
+                                  <div class="swiper-container">
+                                      <div class="setas">
+                                          <div class="swiper-button-next"></div>
+                                          <div class="swiper-button-prev"></div>
+                                      </div>
+                                      <div class="swiper-wrapper">
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="https://www.youtube.com/watch?v=cO0WmhmVM2U" class="video"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>							    
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+              <li id="pista_13"  class="row">
+                  <div class="header" style="background: url('/_assets/images/img_header_pista.png')no-repeat center center / cover" data-stellar-background-ratio="0.8"></div>
+                  <div class="content">
+                      <div class="grid">
+                          <div class="text">
+                              <div class="img" style="background: url('/_assets/images/mapa_mini.png')no-repeat center center / contain"></div>
+                              <p class="number">13</p>
+                              <h3>ESTRADA DE CHÃO (OFF-ROAD)</h3>
+                              <p>Com um comprimento de 6,4 km e um circuito de utilização contínua, a utilização desta pista é destinada para execução de testes de durabilidade acelerada em veículos. Possui um controle do nível de severidade gerados aos veículos e componentes agregados aos veículos, além de fornecer contaminação como pó, pedras e outros tipos de inputs ne- cessários para testes desta natureza.</p>
+                          </div>
+                      </div>
+                      <div class="grid">
+                          <div class="content_slider">
+                              <div class="slider">
+                                  <div class="swiper-container">
+                                      <div class="setas">
+                                          <div class="swiper-button-next"></div>
+                                          <div class="swiper-button-prev"></div>
+                                      </div>
+                                      <div class="swiper-wrapper">
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="https://www.youtube.com/watch?v=cO0WmhmVM2U" class="video"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>							    
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+              <li id="pista_14"  class="row">
+                  <div class="header" style="background: url('/_assets/images/img_header_pista.png')no-repeat center center / cover" data-stellar-background-ratio="0.8"></div>
+                  <div class="content">
+                      <div class="grid">
+                          <div class="text">
+                              <div class="img" style="background: url('/_assets/images/mapa_mini.png')no-repeat center center / contain"></div>
+                              <p class="number">14 a 18</p>
+                              <h3>ESTRADA DE CHÃO (OFF-ROAD)</h3>
+                              <p>Com um comprimento de 6,4 km e um circuito de utilização contínua, a utilização desta pista é destinada para execução de testes de durabilidade acelerada em veículos. Possui um controle do nível de severidade gerados aos veículos e componentes agregados aos veículos, além de fornecer contaminação como pó, pedras e outros tipos de inputs ne- cessários para testes desta natureza.</p>
+                          </div>
+                      </div>
+                      <div class="grid">
+                          <div class="content_slider">
+                              <div class="slider">
+                                  <div class="swiper-container">
+                                      <div class="setas">
+                                          <div class="swiper-button-next"></div>
+                                          <div class="swiper-button-prev"></div>
+                                      </div>
+                                      <div class="swiper-wrapper">
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="https://www.youtube.com/watch?v=cO0WmhmVM2U" class="video"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                              <div class="content_slide"  style="background: url('/_assets/images/laboratorio.png')no-repeat center center / cover">
+                                                  <a  data-fancybox="gal3" href="/_assets/images/laboratorio.png"></a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>							    
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </li>*/
+            }
+		</ul>
+	</div>	
+</section>

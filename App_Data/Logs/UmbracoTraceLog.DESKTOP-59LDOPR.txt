@@ -1,170 +1,146 @@
-﻿ 2019-01-23 08:52:00,195 [P6652/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.3 application starting on DESKTOP-59LDOPR
- 2019-01-23 08:52:00,207 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
- 2019-01-23 08:52:00,211 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 4ms)
- 2019-01-23 08:52:00,246 [P6652/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
- 2019-01-23 08:52:00,247 [P6652/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
- 2019-01-23 08:52:00,248 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 08:52:00,446 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 196ms)
- 2019-01-23 08:52:00,446 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
- 2019-01-23 08:52:00,450 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 4ms)
- 2019-01-23 08:52:00,459 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 08:52:00,460 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 08:52:00,460 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
- 2019-01-23 08:52:00,465 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 4ms)
- 2019-01-23 08:52:00,465 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 08:52:00,465 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 08:52:00,465 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
- 2019-01-23 08:52:00,470 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 4ms)
- 2019-01-23 08:52:00,479 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 08:52:00,479 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 08:52:00,479 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
- 2019-01-23 08:52:00,484 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 4ms)
- 2019-01-23 08:52:00,485 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 08:52:00,485 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 08:52:00,485 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
- 2019-01-23 08:52:00,490 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 4ms)
- 2019-01-23 08:52:17,426 [P6652/D2/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: SVV-SQL-03\INSSQL01HM, InitialCatalog: campo_provas. Exception: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
-   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
-   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
-   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
-ClientConnectionId:00000000-0000-0000-0000-000000000000
-Error Number:-1,State:0,Class:20
- 2019-01-23 08:52:17,426 [P6652/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
- 2019-01-23 08:52:17,456 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Models.PublishedContent.PublishedContentModel
- 2019-01-23 08:52:17,462 [P6652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Models.PublishedContent.PublishedContentModel (took 6ms)
- 2019-01-23 08:52:17,495 [P6652/D2/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: SVV-SQL-03\INSSQL01HM, InitialCatalog: campo_provas. Exception: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
-ClientConnectionId:00000000-0000-0000-0000-000000000000
-Error Number:-1,State:0,Class:20
- 2019-01-23 08:52:17,496 [P6652/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
- 2019-01-23 08:52:18,497 [P6652/D2/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: SVV-SQL-03\INSSQL01HM, InitialCatalog: campo_provas. Exception: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
-ClientConnectionId:00000000-0000-0000-0000-000000000000
-Error Number:-1,State:0,Class:20
- 2019-01-23 08:52:18,497 [P6652/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
- 2019-01-23 08:52:19,498 [P6652/D2/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: SVV-SQL-03\INSSQL01HM, InitialCatalog: campo_provas. Exception: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
-ClientConnectionId:00000000-0000-0000-0000-000000000000
-Error Number:-1,State:0,Class:20
- 2019-01-23 08:52:19,498 [P6652/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
- 2019-01-23 08:52:20,500 [P6652/D2/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: SVV-SQL-03\INSSQL01HM, InitialCatalog: campo_provas. Exception: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
-ClientConnectionId:00000000-0000-0000-0000-000000000000
-Error Number:-1,State:0,Class:20
- 2019-01-23 08:52:20,500 [P6652/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
- 2019-01-23 08:52:21,502 [P6652/D2/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: SVV-SQL-03\INSSQL01HM, InitialCatalog: campo_provas. Exception: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
-ClientConnectionId:00000000-0000-0000-0000-000000000000
-Error Number:-1,State:0,Class:20
- 2019-01-23 08:52:21,503 [P6652/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
- 2019-01-23 08:52:36,895 [P6652/D2/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: SVV-SQL-03\INSSQL01HM, InitialCatalog: campo_provas. Exception: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
-   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
-   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
-   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
-ClientConnectionId:00000000-0000-0000-0000-000000000000
-Error Number:-1,State:0,Class:20
- 2019-01-23 08:52:36,895 [P6652/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
- 2019-01-23 08:52:36,903 [P6652/D2/T1] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
-Umbraco.Core.Exceptions.UmbracoStartupFailedException: Umbraco cannot start. A connection string is configured but Umbraco cannot connect to the database.
-   at Umbraco.Core.CoreBootManager.EnsureDatabaseConnection()
-   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete)
-   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete)
-   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
-   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
- 2019-01-23 08:53:03,344 [P6652/D2/T10] ERROR UmbracoExamine.DataServices.UmbracoContentService - EXCEPTION OCCURRED reading GetAllUserPropertyNames
-System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
-   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
-   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
-   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass1.<ExecuteAction>b__0()
-   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
-   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction(Action action)
-   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection, RetryPolicy retryPolicy)
-   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection)
-   at Umbraco.Core.Persistence.Database.OpenSharedConnection()
-   at Umbraco.Core.Persistence.Database.BeginTransaction(IsolationLevel isolationLevel)
-   at Umbraco.Core.Scoping.Scope.get_Database()
-   at Umbraco.Core.DatabaseContext.get_Database()
-   at UmbracoExamine.DataServices.UmbracoContentService.GetAllUserPropertyNames()
-ClientConnectionId:00000000-0000-0000-0000-000000000000
-Error Number:-1,State:0,Class:20
- 2019-01-23 08:53:03,375 [P6652/D2/T10] INFO  Umbraco.Core.MainDom - Stopping...
- 2019-01-23 08:53:03,375 [P6652/D2/T10] INFO  Umbraco.Core.MainDom - Released MainDom.
- 2019-01-23 08:53:33,429 [P6652/D2/T6] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: InitializationError
+﻿ 2019-01-25 14:00:01,630 [P4572/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.3 application starting on DESKTOP-59LDOPR
+ 2019-01-25 14:00:01,648 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2019-01-25 14:00:01,684 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 35ms)
+ 2019-01-25 14:00:01,839 [P4572/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2019-01-25 14:00:01,840 [P4572/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2019-01-25 14:00:01,842 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:02,058 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 216ms)
+ 2019-01-25 14:00:02,058 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2019-01-25 14:00:02,064 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 5ms)
+ 2019-01-25 14:00:02,076 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:02,076 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:02,076 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2019-01-25 14:00:02,081 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 4ms)
+ 2019-01-25 14:00:02,082 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:02,082 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:02,082 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2019-01-25 14:00:02,087 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 4ms)
+ 2019-01-25 14:00:02,095 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:02,095 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:02,096 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2019-01-25 14:00:02,101 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 5ms)
+ 2019-01-25 14:00:02,102 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:02,102 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:02,102 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2019-01-25 14:00:02,107 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 4ms)
+ 2019-01-25 14:00:02,803 [P4572/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2019-01-25 14:00:02,894 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2019-01-25 14:00:02,902 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Models.PublishedContent.PublishedContentModel (took 7ms)
+ 2019-01-25 14:00:02,941 [P4572/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2019-01-25 14:00:02,957 [P4572/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2019-01-25 14:00:02,986 [P4572/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2019-01-25 14:00:03,087 [P4572/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2019-01-25 14:00:03,109 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:03,109 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:03,109 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2019-01-25 14:00:03,115 [P4572/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 6ms)
+ 2019-01-25 14:00:03,182 [P4572/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1607ms)
+ 2019-01-25 14:00:03,487 [P4572/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:59313/umbraco (UmbracoModule request)
+ 2019-01-25 14:00:03,740 [P4572/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2019-01-25 14:00:03,751 [P4572/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2019-01-25 14:00:04,084 [P4572/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:04,084 [P4572/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:04,084 [P4572/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2019-01-25 14:00:04,087 [P4572/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 2ms)
+ 2019-01-25 14:00:04,107 [P4572/D2/T12] INFO  Umbraco.Core.Manifest.ManifestWatcher - manifest has changed, app pool is restarting (C:\Users\cleber\Desktop\git\projeto-ctr\App_Plugins\ModelsBuilder\package.manifest)
+ 2019-01-25 14:00:04,118 [P4572/D2/T7] INFO  Umbraco.Core.MainDom - Stopping...
+ 2019-01-25 14:00:04,123 [P4572/D2/T7] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2019-01-25 14:00:04,124 [P4572/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2019-01-25 14:00:04,125 [P4572/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2019-01-25 14:00:04,125 [P4572/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2019-01-25 14:00:04,125 [P4572/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2019-01-25 14:00:04,125 [P4572/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2019-01-25 14:00:04,125 [P4572/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2019-01-25 14:00:04,125 [P4572/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2019-01-25 14:00:04,125 [P4572/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2019-01-25 14:00:04,126 [P4572/D2/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2019-01-25 14:00:04,126 [P4572/D2/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2019-01-25 14:00:04,125 [P4572/D2/T8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2019-01-25 14:00:04,149 [P4572/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2019-01-25 14:00:04,152 [P4572/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2019-01-25 14:00:04,152 [P4572/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2019-01-25 14:00:04,153 [P4572/D2/T8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2019-01-25 14:00:06,255 [P4572/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:06,256 [P4572/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:06,256 [P4572/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2019-01-25 14:00:06,257 [P4572/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 1ms)
+ 2019-01-25 14:00:09,526 [P4572/D3/T18] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.3 application starting on DESKTOP-59LDOPR
+ 2019-01-25 14:00:09,537 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2019-01-25 14:00:09,541 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Hash determined (took 4ms)
+ 2019-01-25 14:00:09,569 [P4572/D3/T18] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2019-01-25 14:00:09,570 [P4572/D3/T18] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2019-01-25 14:00:09,572 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:10,020 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 447ms)
+ 2019-01-25 14:00:10,020 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2019-01-25 14:00:10,021 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 0ms)
+ 2019-01-25 14:00:10,050 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:10,051 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2019-01-25 14:00:10,052 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2019-01-25 14:00:10,052 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2019-01-25 14:00:10,053 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:10,053 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:10,053 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2019-01-25 14:00:10,054 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2019-01-25 14:00:10,063 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:10,064 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:10,064 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2019-01-25 14:00:10,064 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2019-01-25 14:00:10,064 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:10,065 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:10,065 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2019-01-25 14:00:10,065 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2019-01-25 14:00:10,742 [P4572/D3/T18] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2019-01-25 14:00:10,821 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2019-01-25 14:00:10,838 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Models.PublishedContent.PublishedContentModel (took 16ms)
+ 2019-01-25 14:00:10,879 [P4572/D3/T18] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2019-01-25 14:00:10,901 [P4572/D3/T18] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2019-01-25 14:00:11,008 [P4572/D3/T18] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2019-01-25 14:00:11,077 [P4572/D3/T18] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2019-01-25 14:00:11,095 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:11,095 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:11,095 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2019-01-25 14:00:11,095 [P4572/D3/T18] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2019-01-25 14:00:11,390 [P4572/D3/T18] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1928ms)
+ 2019-01-25 14:00:12,366 [P4572/D3/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:59313/umbraco (UmbracoModule request)
+ 2019-01-25 14:00:16,743 [P4572/D3/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:16,743 [P4572/D3/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:16,743 [P4572/D3/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2019-01-25 14:00:16,754 [P4572/D3/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 11ms)
+ 2019-01-25 14:00:16,991 [P4572/D3/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:16,994 [P4572/D3/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 6ms)
+ 2019-01-25 14:00:16,995 [P4572/D3/T10] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2019-01-25 14:00:16,996 [P4572/D3/T10] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2019-01-25 14:00:31,016 [P4572/D3/T16] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username felipe@deen.com.br from IP address ::1
+ 2019-01-25 14:00:31,017 [P4572/D3/T16] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: felipe@deen.com.br logged in from IP address ::1
+ 2019-01-25 14:00:31,340 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:31,341 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:31,341 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2019-01-25 14:00:31,353 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 12ms)
+ 2019-01-25 14:00:31,425 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:31,425 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:31,427 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2019-01-25 14:00:31,445 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 19ms)
+ 2019-01-25 14:00:31,543 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:31,544 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:31,548 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2019-01-25 14:00:31,554 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 5ms)
+ 2019-01-25 14:00:31,566 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:31,567 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:31,567 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2019-01-25 14:00:31,567 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2019-01-25 14:00:31,570 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:31,570 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:31,571 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2019-01-25 14:00:31,584 [P4572/D3/T16] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 13ms)
+ 2019-01-25 14:00:31,983 [P4572/D3/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-25 14:00:31,983 [P4572/D3/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-25 14:00:31,983 [P4572/D3/T10] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2019-01-25 14:00:31,984 [P4572/D3/T10] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 0ms)
+ 2019-01-25 14:00:32,002 [P4572/D3/T16] INFO  umbraco.content - Load Xml from file...
+ 2019-01-25 14:00:32,004 [P4572/D3/T16] INFO  umbraco.content - Loaded Xml from file.
+ 2019-01-25 14:00:34,194 [P4572/D2/T7] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: UnloadAppDomainCalled
 
-_shutDownMessage=Initialization Error
+_shutDownMessage=User code called UnloadAppDomain
 HostingEnvironment initiated shutdown
 HostingEnvironment caused shutdown
 
@@ -173,293 +149,12 @@ _shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needF
    at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
    at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
    at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
-   at System.Web.HttpRuntime.AppDomainShutdownTimerCallback(Object state)
-   at System.Threading.TimerQueueTimer.CallCallbackInContext(Object state)
+   at System.Web.HttpRuntime.UnloadAppDomain()
+   at Umbraco.Core.Manifest.ManifestWatcher.FswChanged(Object sender, FileSystemEventArgs e)
+   at System.IO.FileSystemWatcher.OnChanged(FileSystemEventArgs e)
+   at System.IO.FileSystemWatcher.NotifyFileSystemEventArgs(Int32 action, String name)
+   at System.IO.FileSystemWatcher.CompletionStatusChanged(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* overlappedPointer)
+   at System.Threading._IOCompletionCallback.IOCompletionCallback_Context(Object state)
    at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
    at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.TimerQueueTimer.CallCallback()
-   at System.Threading.TimerQueueTimer.Fire()
-   at System.Threading.TimerQueue.FireNextTimers()
-   at System.Threading.TimerQueue.AppDomainTimerCallback()
- 2019-01-23 08:53:46,171 [P6652/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.3 application starting on DESKTOP-59LDOPR
- 2019-01-23 08:53:46,183 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
- 2019-01-23 08:53:46,187 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 4ms)
- 2019-01-23 08:53:46,210 [P6652/D3/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
- 2019-01-23 08:53:46,212 [P6652/D3/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
- 2019-01-23 08:53:46,213 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 08:53:46,443 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 230ms)
- 2019-01-23 08:53:46,443 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
- 2019-01-23 08:53:46,444 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 0ms)
- 2019-01-23 08:53:46,468 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 08:53:46,468 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 08:53:46,468 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
- 2019-01-23 08:53:46,468 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
- 2019-01-23 08:53:46,469 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 08:53:46,469 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 08:53:46,469 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
- 2019-01-23 08:53:46,470 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 0ms)
- 2019-01-23 08:53:46,477 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 08:53:46,477 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 08:53:46,477 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
- 2019-01-23 08:53:46,477 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
- 2019-01-23 08:53:46,477 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 08:53:46,478 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 08:53:46,478 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
- 2019-01-23 08:53:46,478 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
- 2019-01-23 08:53:47,152 [P6652/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2019-01-23 08:53:47,233 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Models.PublishedContent.PublishedContentModel
- 2019-01-23 08:53:47,251 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Models.PublishedContent.PublishedContentModel (took 17ms)
- 2019-01-23 08:53:47,290 [P6652/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
- 2019-01-23 08:53:47,311 [P6652/D3/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
- 2019-01-23 08:53:47,418 [P6652/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
- 2019-01-23 08:53:47,480 [P6652/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
- 2019-01-23 08:53:47,489 [P6652/D3/T1] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will build its caches and indexes, and then adjust its last synced Id to the latest found in the database and maintain cache updates based on that Id.
- 2019-01-23 08:53:47,504 [P6652/D3/T1] INFO  umbraco.content - Load Xml from file...
- 2019-01-23 08:53:47,506 [P6652/D3/T1] INFO  umbraco.content - Loaded Xml from file.
- 2019-01-23 08:53:47,508 [P6652/D3/T1] INFO  umbraco.content - Loading content from database...
- 2019-01-23 08:53:47,792 [P6652/D3/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
- 2019-01-23 08:53:47,833 [P6652/D3/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - member, Provider=InternalMemberIndexer, NodeId=-1
- 2019-01-23 08:53:47,881 [P6652/D3/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - member, took 47ms, Provider=InternalMemberIndexer, NodeId=-1
- 2019-01-23 08:53:47,882 [P6652/D3/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
- 2019-01-23 08:53:47,898 [P6652/D3/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - content, Provider=InternalIndexer, NodeId=-1
- 2019-01-23 08:53:48,033 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 08:53:48,033 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 08:53:48,033 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
- 2019-01-23 08:53:48,040 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 6ms)
- 2019-01-23 08:53:48,197 [P6652/D3/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - content, took 300ms, Provider=InternalIndexer, NodeId=-1
- 2019-01-23 08:53:48,198 [P6652/D3/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - media, Provider=InternalIndexer, NodeId=-1
- 2019-01-23 08:53:48,284 [P6652/D3/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - media, took 85ms, Provider=InternalIndexer, NodeId=-1
- 2019-01-23 08:53:48,284 [P6652/D3/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
- 2019-01-23 08:53:48,296 [P6652/D3/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - content, Provider=ExternalIndexer, NodeId=-1
- 2019-01-23 08:53:48,324 [P6652/D3/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - content, took 27ms, Provider=ExternalIndexer, NodeId=-1
- 2019-01-23 08:53:48,327 [P6652/D3/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - media, Provider=ExternalIndexer, NodeId=-1
- 2019-01-23 08:53:48,346 [P6652/D3/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - media, took 17ms, Provider=ExternalIndexer, NodeId=-1
- 2019-01-23 08:53:48,355 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 08:53:48,355 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 08:53:48,355 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
- 2019-01-23 08:53:48,368 [P6652/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 12ms)
- 2019-01-23 08:53:48,440 [P6652/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2334ms)
- 2019-01-23 08:53:49,528 [P6652/D3/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:59313/umbraco (UmbracoModule request)
- 2019-01-23 08:53:51,522 [P6652/D3/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 08:53:51,522 [P6652/D3/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 08:53:51,522 [P6652/D3/T7] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
- 2019-01-23 08:53:51,526 [P6652/D3/T7] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 3ms)
- 2019-01-23 08:53:51,795 [P6652/D3/T8] INFO  umbraco.content - Save Xml to file...
- 2019-01-23 08:53:51,804 [P6652/D3/T8] INFO  umbraco.content - Saved Xml to file.
- 2019-01-23 08:54:06,175 [P6652/D3/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 08:54:06,176 [P6652/D3/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 08:54:06,176 [P6652/D3/T7] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
- 2019-01-23 08:54:06,176 [P6652/D3/T7] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
- 2019-01-23 08:54:06,191 [P6652/D3/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 08:54:06,191 [P6652/D3/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 08:54:06,191 [P6652/D3/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
- 2019-01-23 08:54:06,196 [P6652/D3/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 4ms)
- 2019-01-23 08:54:49,891 [P6652/D3/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-22 08:54:49
- 2019-01-23 08:55:24,240 [P6652/D3/T7] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
- 2019-01-23 08:55:24,253 [P6652/D3/T7] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 12ms)
- 2019-01-23 09:11:46,664 [P6652/D3/T95] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
-System.Web.HttpCompileException (0x80004005): c:\Users\cleber\Desktop\git\projeto-ctr\Views\umbLayout.cshtml(47): error CS0103: The name 'node' does not exist in the current context
-   at System.Web.Compilation.AssemblyBuilder.Compile()
-   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
-   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
-   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
-   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
-   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
-   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
-   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
-   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
-   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
-   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
-   at System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
-   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
-   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
-   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
-   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
-   at System.Web.WebPages.WebPageBase.PopContext()
-   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
-   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
-   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
-   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
-   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
-   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
-   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
-   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
-   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
-   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
-   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
-   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
-   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
-   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
-   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
- 2019-01-23 09:12:45,266 [P6652/D3/T62] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
-System.Web.HttpCompileException (0x80004005): c:\Users\cleber\Desktop\git\projeto-ctr\Views\umbLayout.cshtml(47): error CS0103: The name 'node' does not exist in the current context
-   at System.Web.Compilation.AssemblyBuilder.Compile()
-   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
-   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
-   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
-   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
-   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
-   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
-   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
-   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
-   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
-   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
-   at System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
-   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
-   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
-   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
-   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
-   at System.Web.WebPages.WebPageBase.PopContext()
-   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
-   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
-   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
-   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
-   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
-   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
-   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
-   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
-   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
-   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
-   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
-   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
-   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
-   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
-   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
- 2019-01-23 09:13:03,689 [P6652/D3/T47] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
-System.Web.HttpCompileException (0x80004005): c:\Users\cleber\Desktop\git\projeto-ctr\Views\umbLayout.cshtml(47): error CS0103: The name 'node' does not exist in the current context
-   at System.Web.Compilation.AssemblyBuilder.Compile()
-   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
-   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
-   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
-   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
-   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
-   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
-   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
-   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
-   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
-   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
-   at System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
-   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
-   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
-   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
-   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
-   at System.Web.WebPages.WebPageBase.PopContext()
-   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
-   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
-   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
-   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
-   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
-   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
-   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
-   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
-   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
-   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
-   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
-   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
-   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
-   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
-   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
-   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
- 2019-01-23 09:15:23,663 [P6652/D3/T49] ERROR Umbraco.Forms.Core.Providers.WorkflowTypes.SendRazorEmail - There was a problem sending a Razor email to 'campo.provas@fras-le.com' from Workflow for Form 'Contato PT' with id '6ab5598a-b83e-44b3-b2e8-494d0e91fb9d' for Record with unique id '38e02871-605a-4b89-81da-22bac71db4d4'
-System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:25
-   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
-   --- End of inner exception stack trace ---
-   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
-   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
-   at System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
-   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
-   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
-   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
-   at System.Net.Mail.SmtpClient.GetConnection()
-   at System.Net.Mail.SmtpClient.Send(MailMessage message)
-   --- End of inner exception stack trace ---
-   at System.Net.Mail.SmtpClient.Send(MailMessage message)
-   at Umbraco.Forms.Core.Providers.WorkflowTypes.SendRazorEmail.Execute(Record record, RecordEventArgs e)
- 2019-01-23 09:15:23,705 [P6652/D3/T49] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
- 2019-01-23 09:15:24,370 [P6652/D3/T49] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 664ms)
- 2019-01-23 09:17:19,264 [P6652/D3/T68] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 09:17:19,264 [P6652/D3/T68] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 09:17:19,264 [P6652/D3/T68] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
- 2019-01-23 09:17:19,279 [P6652/D3/T68] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 14ms)
- 2019-01-23 09:17:49,957 [P6652/D3/T117] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username felipe@deen.com.br from IP address ::1
- 2019-01-23 09:17:49,958 [P6652/D3/T117] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: felipe@deen.com.br logged in from IP address ::1
- 2019-01-23 09:17:50,045 [P6652/D3/T120] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 09:17:50,045 [P6652/D3/T120] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 09:17:50,045 [P6652/D3/T120] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
- 2019-01-23 09:17:50,050 [P6652/D3/T120] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 5ms)
- 2019-01-23 09:17:50,158 [P6652/D3/T119] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 09:17:50,158 [P6652/D3/T119] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 09:17:50,162 [P6652/D3/T119] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
- 2019-01-23 09:17:50,175 [P6652/D3/T119] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 16ms)
- 2019-01-23 09:17:50,316 [P6652/D3/T123] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 09:17:50,317 [P6652/D3/T123] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 09:17:50,318 [P6652/D3/T123] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
- 2019-01-23 09:17:50,321 [P6652/D3/T123] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 2ms)
- 2019-01-23 09:17:50,346 [P6652/D3/T123] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 09:17:50,347 [P6652/D3/T123] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 09:17:50,347 [P6652/D3/T123] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
- 2019-01-23 09:17:50,347 [P6652/D3/T123] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
- 2019-01-23 09:17:50,350 [P6652/D3/T123] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 09:17:50,351 [P6652/D3/T123] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 09:17:50,351 [P6652/D3/T123] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
- 2019-01-23 09:17:50,354 [P6652/D3/T123] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 3ms)
- 2019-01-23 09:21:20,252 [P6652/D3/T41] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-23 09:21:20,252 [P6652/D3/T41] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-23 09:21:20,253 [P6652/D3/T41] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
- 2019-01-23 09:21:20,264 [P6652/D3/T41] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 11ms)
- 2019-01-23 09:22:29,751 [P6652/D3/T31] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2019-01-23 09:22:29,757 [P6652/D3/T34] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
